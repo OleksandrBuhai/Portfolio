@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header/Header';
 import Main from './Main/Main/Main';
+import Skills from './Skills/Skills';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
         <Header/>
         <Main/>
+        <Skills/>
     </div>
   );
 }
