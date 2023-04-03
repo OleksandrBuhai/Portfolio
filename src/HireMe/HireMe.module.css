@@ -1,0 +1,17 @@
+.hireMeBlock {
+    height: 30vh;
+    background-color: rgb(138, 87, 10);
+}
+
+.hiresContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.button{
+    height: 100px;
+    width: 200px;
+    border-radius: 15px;
+}

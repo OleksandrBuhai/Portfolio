@@ -1,0 +1,14 @@
+.footerContainer {
+    height: 15vh;
+    background-color: rgb(138, 87, 10);
+}
+.footersBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.span{
+    background-color: azure;
+    height: 15px;
+    width: 15px;
+}

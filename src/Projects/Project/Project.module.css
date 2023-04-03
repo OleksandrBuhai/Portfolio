@@ -1,0 +1,26 @@
+.project {
+    width: 350px;
+    height: 450px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.icon {
+    width: 100%;
+    height: 70%;
+    background-color: rgb(197, 142, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+}
