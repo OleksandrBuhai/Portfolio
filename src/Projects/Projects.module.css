@@ -1,6 +1,7 @@
 .projectsBlock {
     height: 100vh;
     background-color: coral;
+    flex-wrap: wrap;
 }
 
 .projectsContainer {
@@ -14,5 +15,4 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
