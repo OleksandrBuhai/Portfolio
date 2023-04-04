@@ -12,6 +12,7 @@ return(
             <div className={styles.projects}>
             <Project/>
             <Project/>
+            <Project/>
             </div>
         </div>
     </div>
