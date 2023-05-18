@@ -2,6 +2,15 @@
     width:300px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid ;
-    background-color: aliceblue;
+
+}
+
+.navContainer a {
+    text-decoration: none;
+}
+
+.navContainer a:hover,
+.navContainer a.active
+ {
+    color: brown;
 }

@@ -6,7 +6,7 @@ function Nav () {
 
  return (
        <div className={style.navContainer}>
-        <a href="">Main</a>
+        <a href="" className={style.active}>Main</a>
         <a href="">Skills</a>
         <a href="">Projects</a>
         <a href="">Contacts</a>

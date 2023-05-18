@@ -5,7 +5,7 @@ import containerStyle from '../common/styles/Container.module.css'
 
 function Contacts() {
     return (
-        <div className={styles.contactsBlock}>
+        <div className={`${styles.contactsBlock} ${containerStyle.bckgrndColor}`}>
             <div className={`${containerStyle.container} ${styles.contactContainer}`}>
                 <h4>Contacts</h4>
                 <form className={styles.form}>

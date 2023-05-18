@@ -1,14 +1,22 @@
 .skill {
     width: 250px;
-    background-color: grey;
+    border-radius: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: .5s ease;
+}
+.skill:hover{
+    transform: scale(1.1);
 }
 
 .icon {
 height: 60px;
 width: 60px;
 background-color: azure;
+}
+
+.button {
+    padding-bottom: 1vh;
 }
