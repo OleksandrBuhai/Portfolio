@@ -9,17 +9,9 @@ function Main() {
             <div className={`${style.main} ${containerStyle.bckgrndColor}`}>
                   <div className={containerStyle.container}>
                         <div className={style.text}>
-                              <h3>Hello </h3>
+                              <span>Hello </span>
                               <h1>I am Oleksandr Buhai</h1>
-                              <h3>And I'm a <span>Frontend Developer</span></h3>
-                              <p>
-                                    Working on part time , keep studying  HTML,CSS, React, JS/TS
-                              </p>
-                              <div class="social-media">
-                                    <a href=""><i class='bx bxl-instagram'></i></a>
-                                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
-                                    <a href=""><i class='bx bxl-linkedin'></i></a>
-                              </div>
+                              <p>And I'm a Frontend Developer</p>
                         </div>
                         <div className={style.photo}>
                         </div>

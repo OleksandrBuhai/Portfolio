@@ -1,10 +1,10 @@
 .skill {
-    width: 250px;
-    border-radius: 1vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex: 1 1 30rem;
+    background: #1f242d;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
     text-align: center;
+    border: 0.2rem solid #1f242d;
     transition: .5s ease;
 }
 .skill:hover{
@@ -17,6 +17,6 @@ width: 60px;
 background-color: azure;
 }
 
-.button {
-    padding-bottom: 1vh;
+description{
+    transition: .5s ease;
 }
