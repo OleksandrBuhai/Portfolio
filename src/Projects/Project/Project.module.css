@@ -1,17 +1,20 @@
 .project {
     width: 350px;
     height: 450px;
-    background-color: blanchedalmond;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem black;
+    overflow: hidden;
 }
 
 .icon {
     width: 100%;
-    height: 70%;
+    height: 100%;
     background-color: rgb(197, 142, 248);
     display: flex;
     justify-content: center;
@@ -23,4 +26,42 @@
     flex-direction: column;
     align-items: flex-start;
     display: flex;
+}
+
+.portfolio-box {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem black;
+    overflow: hidden;
+    display: flex;
+}
+
+.project img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project .layer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(rgba(0,0,0,.1),wheat);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+
+.project:hover .layer {
+    transform: translateY(0%);
 }

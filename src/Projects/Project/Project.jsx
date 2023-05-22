@@ -4,13 +4,11 @@ import styles from "./Project.module.css"
 function Project() {
     return (
         <div className={`${styles.project} ${styles.text}`}>
-            <div className={styles.icon}>
-                Image
-                <button>Show</button>
-            </div>
-            <div className={styles.text}>
+            <img className={styles.icon}></img>
+            <div className={styles.layer}>
                 <span>Project name</span>
                 <span>Short description</span>
+                <button>Show</button>
             </div>
         </div>
     )

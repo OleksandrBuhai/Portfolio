@@ -2,20 +2,25 @@ import React from "react";
 import styles from './Skills.module.css'
 import containerStyle from '../common/styles/Container.module.css'
 import Skill from "./Skill/Skill";
+import jsIcon from "../common/img/bxl-javascript.svg"
+import reactIcon from "../common/img/bxl-react.svg"
+import htmlIcon from "../common/img/bxl-html5.svg"
+import tsIcon from "../common/img/bxl-typescript.svg"
+import webIcon from "../common/img/bxl-edge.svg"
 
 
 function Skills() {
     return (
         <div className={`${styles.skillsBlock} ${containerStyle.bckgrndColor2}`}>
             <div className={`${styles.skillsContainer} ${containerStyle.container}`}>
-                <h2>skills</h2>
+                <h2 >Skills</h2>
                 <div className={styles.skills}>
-                    <Skill title={"JS/TS"} description={"Skills was improved by different tasks and pet projects"} />
-                    <Skill title={"HTML/CSS"} description={"SKills was improved by made some sites "} />
-                    <Skill title={"React"} description={"I make FB clone and different react/web application like snake game todolist and social network"} />
-                    <Skill title={"sdasd"} description={"sdasdadd"}/>
-                    <Skill title={"sdasd"} description={"sdasdadd"}/>
-                    <Skill title={"sdasd"} description={"sdasdadd"}/>
+                    <Skill title={"JS"} description={"Skills was improved by different tasks and pet projects"} img={jsIcon}/>
+                    <Skill title={"HTML/CSS"} description={"SKills was improved by made some sites "} img={htmlIcon} />
+                    <Skill title={"React"} description={"I make FB clone and different react/web application like snake game todolist and social network"} img={reactIcon} />
+                    <Skill title={"TS"} description={"Skills was improved by different tasks and pet projects"} img={tsIcon} />
+                    <Skill title={"WebDev"} description={"Making a design for different site,building maket for different projects"} img={webIcon} />
+                    <Skill title={"WebDev"} description={"Making a design for different site,building maket for different projects"} img={webIcon} />
                 </div>
             </div>
         </div>

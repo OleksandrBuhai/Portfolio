@@ -4,7 +4,6 @@
 }
 
 .contactContainer{
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -14,25 +13,44 @@
 .form {
     height: 30%;
     width: 50%;
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     align-content: space-between;
     flex-wrap: wrap;
+    box-shadow: 0 0 1rem rgb(197, 142, 248);
 }
 
 .input{
     width: 100%;
-    height: 20%;
+    height: 15%;
+    background-color: #313f4b;
 }
 
 .textarea {
     width: 100%;
     height: 60%;
+    resize: none;
+    background-color: #313f4b;
+    padding-left: 5px;
 }
 
 .button {
-    height: 100px;
-    width: 200px;
+    display: inline-block;
+    height: 10vh;
+    width: 20vh;
     border-radius: 15px;
+    box-shadow: 0 0 1rem rgb(197, 142, 248);
+    letter-spacing: .1rem;
+    font-weight: 400;
+    transition: .5s ease;
+    background-color: #313f4b;
+}
+
+.button:hover {
+box-shadow: none;
+}
+
+
+.header{
+    margin-bottom: 3rem;
 }

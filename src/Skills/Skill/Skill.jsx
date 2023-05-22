@@ -5,6 +5,8 @@ import containerStyle from "../../common/styles/Container.module.css"
 
 
 
+
+
 function Skill(props) {
 
     const description1 = props.description
@@ -19,10 +21,10 @@ function Skill(props) {
     };
 
     return (
-        <div className={`${style.skill} ${containerStyle.bckgrndColor}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <div className={style.icon}></div>
+        <div className={`${style.skill} ${containerStyle.bckgrndColor}`} /*onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}*/>
+            <div className={style.icon}><img className={style.icon} src={props.img} alt=""/></div>
             <h3>{props.title}</h3>
-            <span className={style.description} >{text}</span>
+            <span className={style.description} >{props.description}</span>
         </div>
     )
 }
