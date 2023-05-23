@@ -11,7 +11,7 @@ import webIcon from "../common/img/bxl-edge.svg"
 
 function Skills() {
     return (
-        <div className={`${styles.skillsBlock} ${containerStyle.bckgrndColor2}`}>
+        <div className={`${styles.skillsBlock} ${containerStyle.bckgrndColor}`}>
             <div className={`${styles.skillsContainer} ${containerStyle.container}`}>
                 <h2 >Skills</h2>
                 <div className={styles.skills}>

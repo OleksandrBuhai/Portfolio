@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import style from './App.module.css';
 import Header from './Header/Header';
 import Main from './Main/Main/Main';
 import Skills from './Skills/Skills';
@@ -12,7 +12,7 @@ import Footer from './Footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className={style.App}>
         <Header/>
         <Main/>
         <Skills/>

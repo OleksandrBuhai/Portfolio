@@ -1,24 +1,66 @@
 .contactsBlock {
-    height: 100vh;
 
 }
-
 .contactContainer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
+    min-height: 100%;
+
 }
 
 .form {
-    height: 30%;
-    width: 50%;
+    min-width: 70%;
+    min-height: 100%;
     display: flex;
-    flex-direction: row;
-    align-content: space-between;
-    flex-wrap: wrap;
-    box-shadow: 0 0 1rem rgb(197, 142, 248);
+    flex-direction: column;
+
 }
+
+.inputBox {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
+}
+.inputBox input {
+   width: 49%;
+    border: none;
+    outline: none;
+    margin: 5px 0;
+    background-color: #313f4b;
+    border-radius: 2vh;
+    padding: 2vh;
+    color: white;
+}
+
+.textArea {
+    resize: none;
+    border: none;
+    outline: none;
+    margin-top: 1vh;
+    margin: 5px 0;
+    background-color: #313f4b;
+    border-radius: 2vh;
+    padding: 2vh;
+    color: white;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 15px;
+    box-shadow: 0 0 1rem rgb(197, 142, 248);
+    letter-spacing: .1rem;
+    font-weight: 400;
+    transition: .5s ease;
+    background-color: #313f4b;
+    margin-bottom: 3vh;
+}
+
+
+
+
+/*
 
 .input{
     width: 100%;
@@ -54,3 +96,4 @@ box-shadow: none;
 .header{
     margin-bottom: 3rem;
 }
+*/

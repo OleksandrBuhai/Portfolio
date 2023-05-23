@@ -21,7 +21,7 @@ function Skill(props) {
     };
 
     return (
-        <div className={`${style.skill} ${containerStyle.bckgrndColor}`} /*onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}*/>
+        <div className={`${style.skill} ${containerStyle.bckgrndColor2}`} /*onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}*/>
             <div className={style.icon}><img className={style.icon} src={props.img} alt=""/></div>
             <h3>{props.title}</h3>
             <span className={style.description} >{props.description}</span>

@@ -6,7 +6,7 @@ import containerStyle from "../../common/styles/Container.module.css"
 function Main() {
 
       return (
-            <div className={`${style.main} ${containerStyle.bckgrndColor}`}>
+            <div className={`${style.main} ${containerStyle.bckgrndColor2}`}>
                   <div className={containerStyle.container}>
                         <div className={style.text}>
                               <span>Hello </span>

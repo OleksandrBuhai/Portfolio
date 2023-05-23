@@ -9,10 +9,16 @@ function Contacts() {
             <div className={`${containerStyle.container} ${styles.contactContainer}`}>
                 <h4>Contacts</h4>
                 <form className={styles.form}>
-                    <input type="text" className={styles.input} placeholder={"Full name"} />
-                    <input type="text" className={styles.input} placeholder={"Email"} />
+                        <div className={styles.inputBox}>
+                            <input type="text" placeholder="Full Name"/>
+                            <input type="email" placeholder="Email Adress"/>
+                        </div>
+                        <div className={styles.inputBox}>
+                            <input type="number" placeholder="Mobile Number"/>
+                            <input type="text" placeholder="Email Subject"/>
+                        </div>
+                        <textarea className={styles.textArea} name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
 
-                    <textarea className={styles.textarea} placeholder={"Write your message"}></textarea>
                 </form>
                 <button className={styles.button}>
                     Send
