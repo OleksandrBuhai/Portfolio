@@ -1,14 +1,22 @@
 .footerContainer {
-    height: 15vh;
+    height: 10vh;
     background-color: rgb(138, 87, 10);
 }
 .footersBlock {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
 }
 .span{
     background-color: azure;
     height: 15px;
     width: 15px;
+}
+.footer{
+    margin-left: 3vh;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
 }

@@ -1,25 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import style from './App.module.css';
 import Header from './Header/Header';
-import Main from './Main/Main/Main';
-import Skills from './Skills/Skills';
-import Projects from './Projects/Projects';
-import HireMe from './HireMe/HireMe';
-import Contacts from './Contacts/Contacts';
 import Footer from './Footer/Footer';
+import Content from "./Content/Content";
+import {BrowserRouter} from "react-router-dom";
 
 
 function App() {
   return (
-    <div className={style.App}>
-        <Header/>
-        <Main/>
-        <Skills/>
-        <Projects/>
-        <Contacts/>
-        <Footer/>
-    </div>
+      <div className={style.App}>
+          <BrowserRouter>
+              <Header />
+              <Content />
+              <Footer />
+          </BrowserRouter>
+      </div>
+
   );
 }
 

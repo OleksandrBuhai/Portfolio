@@ -47,14 +47,16 @@
 }
 
 .button {
+    height: 5vh;
+    width: 15vh;
     display: inline-block;
     border-radius: 15px;
     box-shadow: 0 0 1rem rgb(197, 142, 248);
     letter-spacing: .1rem;
     font-weight: 400;
     transition: .5s ease;
-    background-color: #313f4b;
-    margin-bottom: 3vh;
+
+    margin: 3vh;
 }
 
 

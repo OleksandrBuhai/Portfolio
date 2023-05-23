@@ -6,16 +6,10 @@ function Footer () {
     return (
         <div className={styles.footerContainer}>
             <div className={`${containerStyle.container} ${styles.footersBlock}`}>
-                <h5>Oleksandr Buhai</h5>
-                <div className={styles.span}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <footer>
-                    2023 all right reserved
+                <footer className={styles.footer}>
+                    Copyryting ©: 2023 by Oleksandr Buhai | All Rights Reserver.
                 </footer>
+                <button>Up</button>
             </div>
         </div>
     )
