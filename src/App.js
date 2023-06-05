@@ -9,11 +9,9 @@ import {BrowserRouter} from "react-router-dom";
 function App() {
   return (
       <div className={style.App}>
-          <BrowserRouter>
               <Header />
               <Content />
               <Footer />
-          </BrowserRouter>
       </div>
 
   );
