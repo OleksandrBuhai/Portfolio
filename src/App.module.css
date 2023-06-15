@@ -1,3 +1,12 @@
+:root {
+    --mainBackgroundClr:#1f242d;
+    --secondBackgroundClr:#313f4b;
+    --textColor: #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
 .App {
     margin: 0;
     padding: 0;
@@ -7,3 +16,5 @@
     outline: none;
     scroll-behavior: smooth;
 }
+
+

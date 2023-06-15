@@ -11,15 +11,14 @@ import webIcon from "../common/img/bxl-edge.svg"
 
 function Skills() {
     return (
-        <div className={`${styles.skillsBlock} ${containerStyle.bckgrndColor}`}>
+        <div className={styles.skillsBlock}  id="skills">
             <div className={`${styles.skillsContainer} ${containerStyle.container}`}>
-                <h2 >Skills</h2>
+                <h2 className={styles.header}>Skills</h2>
                 <div className={styles.skills}>
                     <Skill title={"JS"} description={"Skills was improved by different tasks and pet projects"} img={jsIcon}/>
                     <Skill title={"HTML/CSS"} description={"SKills was improved by made some sites "} img={htmlIcon} />
                     <Skill title={"React"} description={"I make FB clone and different react/web application like snake game todolist and social network"} img={reactIcon} />
                     <Skill title={"TS"} description={"Skills was improved by different tasks and pet projects"} img={tsIcon} />
-                    <Skill title={"WebDev"} description={"Making a design for different site,building maket for different projects"} img={webIcon} />
                     <Skill title={"WebDev"} description={"Making a design for different site,building maket for different projects"} img={webIcon} />
                 </div>
             </div>

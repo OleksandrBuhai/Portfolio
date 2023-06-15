@@ -1,12 +1,47 @@
 .main {
     height: 100vh;
-    background-color: #1f242d;
+    background-color: var(--secondBackgroundClr);
 }
 
 .text {
     width: 300px;
-    color: aliceblue;
+    color: var(--textColor);
 }
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 400px;
+}
+
+.photo> img {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    object-fit: cover;
+    right: 8rem;
+    top: 2rem;
+}
+
+.photo> :nth-child(1) {
+    position: absolute;
+    width: 17rem;
+    height: 20rem;
+    border: 2px solid rgb(185, 218, 247);
+    background-color: transparent;
+    right: 9rem;
+    top: 0.9rem;
+}
+
+.photo > :nth-child(2) {
+    position: absolute;
+    width: 17rem;
+    height: 19rem;
+    right: 7rem;
+    top: 4rem;
+    background: rgb(185, 218, 247);
+}
+
 
 .text h3 {
 
@@ -25,8 +60,3 @@
 
 }
 
-.photo {
-    width: 300px;
-    height: 400px;
-    background-color: rgb(15, 16, 17);
-}

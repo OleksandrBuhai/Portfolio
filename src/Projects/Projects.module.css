@@ -1,19 +1,21 @@
 .projectsBlock {
     min-height: 100vh;
+    background-color: var(--secondBackgroundClr);
 }
 
 .projectsContainer {
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
+
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 5vh;
 }
 
 .portfolio-container {
@@ -21,6 +23,11 @@
     grid-template-columns: repeat(3,1fr);
     align-items: center;
     gap: 2.5rem;
+}
+
+.header {
+    font-size: xxx-large;
+    color: rgb(185, 218, 247);
 }
 
 

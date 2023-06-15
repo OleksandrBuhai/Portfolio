@@ -6,9 +6,9 @@ import Project from "./Project/Project";
 
 function Projects () {
 return(
-    <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`}>
+    <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`} id="projects">
         <div className={`${styles.projectsContainer} ${containerStyle.container}`}>
-            <h3>My projects</h3>
+            <h3 className={styles.header}>My projects</h3>
             <div className={styles.projects}>
             <Project/>
             <Project/>

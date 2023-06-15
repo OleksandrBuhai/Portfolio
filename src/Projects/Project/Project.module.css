@@ -8,8 +8,8 @@
     flex-wrap: wrap;
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem black;
     overflow: hidden;
+
 }
 
 .icon {
@@ -26,12 +26,12 @@
     flex-direction: column;
     align-items: flex-start;
     display: flex;
+    color: var(--textColor);
 }
 
 .portfolio-box {
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem black;
     overflow: hidden;
     display: flex;
 }

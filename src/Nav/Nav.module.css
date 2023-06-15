@@ -1,17 +1,20 @@
 .navContainer{
-    width:300px;
     display: flex;
-    justify-content: space-around;
-    border: 1px solid ;
-    background-color: aliceblue;
+    justify-content: space-between;
+    padding-right: 10vh;
 }
 
-.navContainer a {
-    text-decoration: none;
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: white;
 }
 
-.navContainer a:hover,
-.navContainer a.active
- {
-    color: brown;
+.navMenu>li:hover {
+    cursor: pointer;
+    color: orange;
+    cursor: pointer;
 }
+
+

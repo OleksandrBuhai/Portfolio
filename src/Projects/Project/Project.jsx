@@ -3,7 +3,7 @@ import styles from "./Project.module.css"
 
 function Project() {
     return (
-        <div className={`${styles.project} ${styles.text}`}>
+        <div className={styles.project}>
             <img className={styles.icon}></img>
             <div className={styles.layer}>
                 <span>Project name</span>

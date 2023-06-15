@@ -5,9 +5,9 @@ import containerStyle from '../common/styles/Container.module.css'
 
 function Contacts() {
     return (
-        <div className={`${styles.contactsBlock} ${containerStyle.bckgrndColor}`}>
+        <div className={styles.contactsBlock} id="contacts">
             <div className={`${containerStyle.container} ${styles.contactContainer}`}>
-                <h4>Contacts</h4>
+                <h4 className={styles.header}>Send me message</h4>
                 <form className={styles.form}>
                         <div className={styles.inputBox}>
                             <input type="text" placeholder="Full Name"/>

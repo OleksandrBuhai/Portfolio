@@ -1,6 +1,6 @@
 .skillsBlock {
     min-height: 100vh;
-
+    background-color: var(--mainBackgroundClr);
 }
 
 .skillsContainer {
@@ -18,5 +18,6 @@
 }
 
 .header {
+    font-size: xxx-large;
     color: rgb(185, 218, 247);
 }

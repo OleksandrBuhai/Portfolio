@@ -1,5 +1,5 @@
 .contactsBlock {
-
+    background-color: var(--mainBackgroundClr);
 }
 .contactContainer{
     display: flex;
@@ -59,6 +59,10 @@
     margin: 3vh;
 }
 
+.header {
+    font-size: xxx-large;
+    color: rgb(185, 218, 247);
+}
 
 
 
