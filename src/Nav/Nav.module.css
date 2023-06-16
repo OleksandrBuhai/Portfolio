@@ -11,10 +11,20 @@
     color: white;
 }
 
+.navMenu:hover li{
+    filter: blur(5px);
+}
+
+.navMenu>li {
+    display: block;
+    transition: .5s;
+}
+
 .navMenu>li:hover {
     cursor: pointer;
-    color: orange;
-    cursor: pointer;
+    color: aqua;
+    filter: blur(0px);
 }
+
 
 

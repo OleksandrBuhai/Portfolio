@@ -1,11 +1,21 @@
 :root {
     --mainBackgroundClr:#1f242d;
-    --secondBackgroundClr:#313f4b;
-    --textColor: #fff;
+    --secondBackgroundClr:#040605;
+    --textColor: #f0f4f3;
 }
 ::-webkit-scrollbar{
     display: none;
 }
+
+.maincolor {
+    background: linear-gradient(#e66465, #9198e5);;
+}
+
+/*.background: rgb(0,173,208);*/
+/*.background {
+linear-gradient(90 deg, rgba(0, 173, 208, 1) 0 %, rgba(0, 0, 0, 1) 46 %);
+}*/
+
 
 .App {
     margin: 0;

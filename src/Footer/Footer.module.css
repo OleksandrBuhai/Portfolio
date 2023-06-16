@@ -5,8 +5,6 @@
 .footersBlock {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
 }
 .span{
     background-color: azure;
@@ -16,7 +14,9 @@
 .footer{
     margin-left: 3vh;
 }
-.button{
-    display: flex;
-    justify-content: flex-end;
+.goUp{
+    cursor: pointer;
 }
+
+
+

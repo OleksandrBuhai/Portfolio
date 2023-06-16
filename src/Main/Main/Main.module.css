@@ -1,6 +1,6 @@
 .main {
     height: 100vh;
-    background-color: var(--secondBackgroundClr);
+    background: var(--secondBackgroundClr);
 }
 
 .text {
@@ -41,6 +41,17 @@
     top: 4rem;
     background: rgb(185, 218, 247);
 }
+
+.socialLinks{
+    display: flex;
+    gap: 2rem;
+}
+.socialLinks>img{
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
 
 
 .text h3 {

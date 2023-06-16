@@ -47,17 +47,29 @@
 }
 
 .button {
-    height: 5vh;
-    width: 15vh;
+    height: 10vh;
+    width: 30vh;
     display: inline-block;
     border-radius: 15px;
-    box-shadow: 0 0 1rem rgb(197, 142, 248);
+    background: #1f242d;
     letter-spacing: .1rem;
     font-weight: 400;
-    transition: .5s ease;
-
+    transition: .1s ease;
+    cursor: pointer;
     margin: 3vh;
+    scale: 1;
 }
+
+.button:hover {
+    color: var(--textColor);
+    box-shadow: 5px 5px 15px 15px rgba(81,45,168 ,1);
+}
+
+.button:active{
+    background:linear-gradient( to bottom right,rgba(63,81,181,1) 0%, rgba(171,71,188 ,1) 70%);
+
+}
+
 
 .header {
     font-size: xxx-large;
