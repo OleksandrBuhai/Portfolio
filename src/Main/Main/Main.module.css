@@ -1,7 +1,16 @@
 .main {
     height: 100vh;
-    background: var(--secondBackgroundClr);
+
+    background-color: #16171b;
+    position: relative;
+    overflow-x: hidden;
+    -webkit-overflow-x: hidden;
 }
+
+.backgorund {
+    background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+}
+
 
 .text {
     width: 300px;
@@ -12,6 +21,7 @@
     position: relative;
     width: 300px;
     height: 400px;
+    transition: 0.5s ease;
 }
 
 .photo> img {

@@ -14,6 +14,7 @@ function App() {
     return (
         <div className={style.App}>
             <Header/>
+
             <Main/>
             <Skills/>
             <Projects/>

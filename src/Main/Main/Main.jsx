@@ -7,6 +7,11 @@ import styles from "../../Footer/Footer.module.css";
 import GitHub from "../../common/img/socialneb/assets/github.png";
 import Instagram from "../../common/img/socialneb/assets/instagram.png";
 import LinkeId from "../../common/img/socialneb/assets/linkedin.png";
+import ParticlesBck from "../../Particles/ParticlesComponent";
+import ParticlesComponent from "../../Particles/ParticlesComponent";
+import {heroOptions} from "../../Particles/config/particles-config";
+import PracticleComp from "../../Particles/ParticlesComponent";
+import HeroParticles from "../../Particles/ParticlesComponent";
 
 
 function Main() {
@@ -17,10 +22,12 @@ function Main() {
             <div className={style.main} id="main">
 
                   <div className={containerStyle.container}>
+
                         <div className={style.text}>
                               <span>Hello </span>
                               <h1>I am Oleksandr Buhai</h1>
-                              <p>And I'm a Frontend Developer</p>
+                              <p>I am a skilled Front End Developer with expertise in React, JS, TS, HTML/CSS, and React-Redux. I am passionate about creating visually appealing and user-friendly websites and web applications.
+                              </p>
                             <div className={style.socialLinks}>
                                 <img src={GitHub} alt=""/>
                                 <img src={Instagram} alt=""/>
