@@ -3,11 +3,17 @@ import styles from "./Project.module.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-function Project() {
+
+
+
+function Project(props) {
 
     useEffect(() => {
         AOS.init();
     }, [])
+
+
+
 
 
     return (
@@ -17,12 +23,12 @@ function Project() {
             <div className={styles.layer}>
             {/*    <span>Project name</span>
                 <span>Short description</span>*/}
-                <button>Show</button>
+               <a href={props.url}><button>Show</button></a>
             </div>
         </div>
             <div className={styles.textContainer}>
-                <span>Project name</span>
-                <span>Short description</span>
+                <span>{props.name}</span>
+                <span>{props.text}</span>
             </div>
         </div>
     )
