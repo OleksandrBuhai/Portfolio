@@ -13,7 +13,9 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 5vh;
 }
+
 
 .portfolio-container {
     display: grid;
@@ -27,4 +29,27 @@
     color: rgb(185, 218, 247);
 }
 
+.even {
+    display: flex;
+    flex-direction: row;
+}
 
+.odd {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer span {
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    color: var(--textColor);
+}

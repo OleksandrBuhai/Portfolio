@@ -2,10 +2,16 @@ import React, {useEffect} from "react";
 import styles from "./Projects.module.css";
 import containerStyle from '../common/styles/Container.module.css'
 import Project from "./Project/Project";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 
 function Projects() {
 
+
+    useEffect(() => {
+        AOS.init();
+    }, [])
 
     const projectInfo = [
         {
@@ -33,37 +39,45 @@ function Projects() {
     ]
 
 
+    /*   {projectInfo.map((el, index) => {
 
- /*   {projectInfo.map((el, index) => {
+           const order = () => {
+               if (props.windowWidth < 850) return '0'
+               else return index % 2 === 0 ? '2' : '0'
+           }
 
-        const order = () => {
-            if (props.windowWidth < 850) return '0'
-            else return index % 2 === 0 ? '2' : '0'
-        }
+           return <div className={classes.projectCart}><ProjectCart key={index}
+                                                                    url={el.url}
+                                                                    gitHubLink={el.gitHubLink}
+                                                                    picture={el.picture}
+                                                                    windowWidth={props.windowWidth}
+           />
+               <span className={classes.cardSpanText} style={{
+                   order: order()
+               }}><div className={classes.projectName}>{el.name}</div>
+                   {el.text}</span>
 
-        return <div className={classes.projectCart}><ProjectCart key={index}
-                                                                 url={el.url}
-                                                                 gitHubLink={el.gitHubLink}
-                                                                 picture={el.picture}
-                                                                 windowWidth={props.windowWidth}
-        />
-            <span className={classes.cardSpanText} style={{
-                order: order()
-            }}><div className={classes.projectName}>{el.name}</div>
-                {el.text}</span>
-
-        </div>
-    })}*/
+           </div>
+       })}*/
     return (
         <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`} id="projects">
             <div className={containerStyle.container}>
                 <h3 className={styles.header}>My projects</h3>
 
-                    {projectInfo.map((el,index)=>{
-                        return  <div className={styles.projects}>
-                            <Project url={el.url} name={el.name} text={el.text} picture={el.picture}/>
+                {projectInfo.map((el, index) => {
+
+                    const isEven = index % 2 === 0;
+
+                    return <div className={`${styles.projects} ${isEven ? styles.even : styles.odd}`}
+                                data-aos="zoom-in-right">
+                        <Project url={el.url} name={el.name} text={el.text} picture={el.picture}/>
+                        <div className={styles.textContainer}>
+                            <span>{el.name}</span>
+                            <span>{el.text}</span>
                         </div>
-                    })}
+                    </div>
+                })
+                }
 
             </div>
         </div>
