@@ -1,0 +1,33 @@
+.header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutmeContainer{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    margin-top: 20vh;
+
+}
+
+.description{
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.photo {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    transition: 0.5s ease;
+    background-color: #3f51b5;
+}

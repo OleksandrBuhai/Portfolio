@@ -28,11 +28,7 @@ function Main() {
                               <h1>I am Oleksandr Buhai</h1>
                               <p>I am a skilled Front End Developer with expertise in React, JS, TS, HTML/CSS, and React-Redux. I am passionate about creating visually appealing and user-friendly websites and web applications.
                               </p>
-                            <div className={style.socialLinks}>
-                                <img src={GitHub} alt=""/>
-                                <img src={Instagram} alt=""/>
-                                <img src={LinkeId} alt=""/>
-                            </div>
+
                         </div>
                         <div className={style.photo}>
                             <motion.div

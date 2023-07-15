@@ -8,6 +8,7 @@ import Main from "./Main/Main/Main";
 import Skills from "./Skills/Skills";
 import Projects from "./Projects/Projects";
 import Contacts from "./Contacts/Contacts";
+import AboutMe from "./AboutMe/AboutMe";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Header/>
 
             <Main/>
+            <AboutMe/>
             <Skills/>
             <Projects/>
             <Contacts/>
