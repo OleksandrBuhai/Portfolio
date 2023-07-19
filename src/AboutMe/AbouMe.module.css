@@ -3,8 +3,17 @@
     text-align: center;
 }
 
-.aboutmeContainer{
+.aboutmeBlock {
+    -bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
 
+.aboutmeContainer{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -15,13 +24,71 @@
 
 }
 
+.custom-div {
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1.125rem; /* Adjust the font size as needed */
+    position: relative;
+}
+
+.custom-div::after {
+    content: "";
+    width: 2rem; /* Adjust the width as needed */
+    height: 2px;
+    background-color: #fff; /* Adjust the background color as needed */
+    position: absolute;
+    bottom: -1px; /* Adjust the positioning as needed */
+    left: 0;
+}
+
+
+/*
 .description{
     width: 30%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+.description ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: flex-start;
+    text-align: center;
+    position: inherit;
+    background: #1D1730;
+    border-radius: 5px;
+}
+
+.description ul li {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+
+.description ul li.active {
+    background-color: #e66465;
+}
+
+.description ul  li.active :after {
+    content: "";
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #F85353;
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+}
+
+.navContainer :hover {
+    cursor: pointer;
+    color: white;
+}*/
 
 
 .photo {

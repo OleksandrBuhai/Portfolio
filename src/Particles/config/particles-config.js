@@ -1,4 +1,5 @@
-// Hero section tsparticles options
+//Section tsparticles options
+
 
 export const heroOptions = {
     autoPlay: true,
@@ -70,8 +71,8 @@ export const heroOptions = {
                 mode: "bubble",
                 parallax: {
                     enable: true,
-                    force: 350,
-                    smooth: 20,
+                    force: 100,
+                    smooth: 40,
                 },
             },
             resize: {
@@ -80,9 +81,9 @@ export const heroOptions = {
             },
         },
 
-        modes: {
+   /*     modes: {
             bounce: {
-                distance: 100,
+                distance: 500,
             },
             bubble: {
                 distance: 100,
@@ -101,7 +102,7 @@ export const heroOptions = {
                 speed: 1,
                 maxSpeed: 50,
             },
-        },
+        },*/
     },
 
     particles: {
@@ -129,11 +130,11 @@ export const heroOptions = {
             random: false,
             size: false,
             speed: 0.8,
-            outMode: "bounce",
+            outMode: "bounce"
         },
         number: {
             limit: 0,
-            value: 30,
+            value: 100,
         },
 
         opacity: {
@@ -192,7 +193,7 @@ export const heroOptions = {
             random: {
                 enable: true,
                 minimumValue: 25,
-                maxValue: 35,
+                maxValue: 10,
             },
             animation: {
                 count: 0,
@@ -222,4 +223,3 @@ export const heroOptions = {
     pauseOnOutsideViewport: true,
     smooth: true,
 };
-

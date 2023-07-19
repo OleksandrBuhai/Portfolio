@@ -15,10 +15,9 @@ function App() {
     return (
         <div className={style.App}>
             <Header/>
-
             <Main/>
             <AboutMe/>
-            <Skills/>
+           {/* <Skills/>*/}
             <Projects/>
             <Contacts/>
             <Footer/>
