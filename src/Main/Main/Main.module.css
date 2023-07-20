@@ -4,6 +4,7 @@
     position: relative;
     overflow: hidden;
     -webkit-overflow-x: hidden;
+    margin: 0 auto;
 }
 
 .backgorund {
@@ -12,8 +13,20 @@
 
 
 .text {
-    width: 300px;
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    padding: 5rem;
     color: var(--textColor);
+}
+
+.text h3{
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+.text h3:nth-of-type(2){
+    margin-bottom: 2rem;
 }
 
 .main> :nth-child(1) {
@@ -23,10 +36,14 @@
 }
 
 .photo {
+    display: flex;
+    flex: 1;
     position: relative;
-    width: 300px;
+    width: 30vh;
+    height: 60vh;
+   /* width: 300px;
     height: 400px;
-    transition: 0.5s ease;
+    transition: 0.5s ease;*/
 }
 
 .photo> :nth-child(1) {

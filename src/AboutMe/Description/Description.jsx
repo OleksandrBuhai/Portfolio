@@ -4,10 +4,13 @@ import style from '../Description/Description.module.css'
 
 const Description = () => {
 
-    const [activeTab, setActiveTab] = useState('About'); // Set an initial active tab
+    const tabItems = [
+        { label: 'About me', content: 'Hello' },
+        { label: 'Skills', content: 'SSh' },
+        { label: 'Credentials', content: 'Your credentials content here' },
+    ];
 
-    const about = 'Hello';
-    const skills = 'SSh';
+    const [activeTab, setActiveTab] = useState(tabItems[0]); // Set the first tab as the initial active tab
 
     const handleTabClick = (tab) => {
         setActiveTab(tab); // Update the active tab when clicking
@@ -16,32 +19,17 @@ const Description = () => {
     return (
         <div>
             <ul className={style.descriptionNav}>
-                <li
-                    onClick={() => {
-                        handleTabClick('About'); // Call handleTabClick and pass the tab name
-                    }}
-                    className={activeTab === 'About' ? style.active : ''}
-                >
-                    About me
-                </li>
-                <li
-                    onClick={() => {
-                        handleTabClick('Skills'); // Call handleTabClick and pass the tab name
-                    }}
-                    className={activeTab === 'Skills' ? style.active : ''}
-                >
-                    Skills
-                </li>
-                <li
-                    onClick={() => {
-                        handleTabClick('Credentials'); // Call handleTabClick and pass the tab name
-                    }}
-                    className={activeTab === 'Credentials' ? style.active : ''}
-                >
-                    Credentials
-                </li>
+                {tabItems.map((tab, index) => (
+                    <li
+                        key={index}
+                        onClick={() => handleTabClick(tab)}
+                        className={activeTab.label === tab.label ? style.active : ''}
+                    >
+                        {tab.label}
+                    </li>
+                ))}
             </ul>
-            <div>{activeTab === 'About' ? about : activeTab === 'Skills' ? skills : null}</div>
+            <div>{activeTab.content}</div>
         </div>
     );
 };

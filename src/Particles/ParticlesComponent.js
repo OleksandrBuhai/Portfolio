@@ -13,7 +13,6 @@ const PracticleContainer = () => {
 
     return (
         <Particles
-
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
