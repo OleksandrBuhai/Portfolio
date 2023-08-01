@@ -1,23 +1,26 @@
 import React, {useState} from 'react';
-import navStyle from '../../Nav/Nav.module.css'
 import style from '../Description/Description.module.css'
+import SkillDescription from "./Skill/SkillDescription";
+import About from "./About/About";
+import Credentials, {Experience} from "../Credential/Credentials";
 
 const Description = () => {
 
     const tabItems = [
-        { label: 'About me', content: 'Hello' },
-        { label: 'Skills', content: 'SSh' },
-        { label: 'Credentials', content: 'Your credentials content here' },
+        { label: 'About', content: <About/> },
+        { label: 'Skills', content: <SkillDescription/> },
+        { label: 'Credentials', content: <Credentials/> },
+        { label: 'Experience', content: <Experience/> },
     ];
 
-    const [activeTab, setActiveTab] = useState(tabItems[0]); // Set the first tab as the initial active tab
+    const [activeTab, setActiveTab] = useState(tabItems[0]);
 
     const handleTabClick = (tab) => {
-        setActiveTab(tab); // Update the active tab when clicking
+        setActiveTab(tab);
     };
 
     return (
-        <div>
+        <div className={style.descriptionContainer}>
             <ul className={style.descriptionNav}>
                 {tabItems.map((tab, index) => (
                     <li
@@ -29,7 +32,7 @@ const Description = () => {
                     </li>
                 ))}
             </ul>
-            <div>{activeTab.content}</div>
+            <div className={style.content}>{activeTab.content}</div>
         </div>
     );
 };

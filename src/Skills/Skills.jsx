@@ -1,12 +1,12 @@
 import React from "react";
 import styles from './Skills.module.css'
-import containerStyle from '../common/styles/Container.module.css'
+import containerStyle from '../assests/styles/Container.module.css'
 import Skill from "./Skill/Skill";
-import jsIcon from "../common/img/bxl-javascript.svg"
-import reactIcon from "../common/img/bxl-react.svg"
-import htmlIcon from "../common/img/bxl-html5.svg"
-import tsIcon from "../common/img/bxl-typescript.svg"
-import webIcon from "../common/img/bxl-edge.svg"
+import jsIcon from "../assests/img/bxl-javascript.svg"
+import reactIcon from "../assests/img/bxl-react.svg"
+import htmlIcon from "../assests/img/bxl-html5.svg"
+import tsIcon from "../assests/img/bxl-typescript.svg"
+import webIcon from "../assests/img/bxl-edge.svg"
 
 
 function Skills() {

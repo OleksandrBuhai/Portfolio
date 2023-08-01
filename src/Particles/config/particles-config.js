@@ -1,108 +1,28 @@
-//Section tsparticles options
-
 
 export const heroOptions = {
     autoPlay: true,
 
     fullScreen: {
         enable: false,
-        zIndex: 0,
+        zIndex: -1,
     },
 
     detectRetina: true,
     fpsLimit: 120,
 
     interactivity: {
-        detectsOn: "#hero",
-        events: {
-            onDiv: [
-                {
-                    selectors: "#repulse-div",
-                    enable: true,
-                    mode: "bounce",
-                    type: "circle",
-                },
-                {
-                    selectors: "#repulse-div",
-                    enable: true,
-                    mode: "repulse",
-                    type: "circle",
-                },
-                {
-                    selectors: "#repulse-span",
-                    enable: true,
-                    mode: "repulse",
-                    type: "circle",
-                },
-                {
-                    selectors: "#repulse-span",
-                    enable: true,
-                    mode: "bounce",
-                    type: "circle",
-                },
-                {
-                    selectors: "#togglebutton",
-                    enable: true,
-                    mode: "repulse",
-                    type: "circle",
-                },
-                {
-                    selectors: "#togglebutton",
-                    enable: true,
-                    mode: "bounce",
-                    type: "circle",
-                },
-                {
-                    selectors: "#scroller",
-                    enable: true,
-                    mode: "repulse",
-                    type: "circle",
-                },
-                {
-                    selectors: "#scroller",
-                    enable: true,
-                    mode: "bounce",
-                    type: "circle",
-                },
-            ],
 
+        events: {
+            onClick: {
+                enable: false,
+                mode: 'push',
+            },
             onHover: {
                 enable: true,
-                mode: "bubble",
-                parallax: {
-                    enable: true,
-                    force: 100,
-                    smooth: 40,
-                },
+                mode: 'repulse',
             },
-            resize: {
-                delay: 0.5,
-                enable: true,
-            },
+            resize: true,
         },
-
-   /*     modes: {
-            bounce: {
-                distance: 500,
-            },
-            bubble: {
-                distance: 100,
-                duration: 0.4,
-                size: 40,
-                color: {
-                    value: "#29c27f",
-                },
-                opacity: 8,
-                mix: false,
-            },
-
-            repulse: {
-                distance: 200,
-                factor: 200,
-                speed: 1,
-                maxSpeed: 50,
-            },
-        },*/
     },
 
     particles: {
@@ -223,3 +143,77 @@ export const heroOptions = {
     pauseOnOutsideViewport: true,
     smooth: true,
 };
+
+export const aboutMeParticles = {
+    fullScreen: { enable: false },
+    background: {
+        color: {
+            value: '',
+        },
+    },
+    fpsLimit: 120,
+    interactivity: {
+        events: {
+            onClick: {
+                enable: false,
+                mode: 'push',
+            },
+            onHover: {
+                enable: true,
+                mode: 'repulse',
+            },
+            resize: true,
+        },
+        modes: {
+            push: {
+                quantity: 90,
+            },
+            repulse: {
+                distance: 200,
+                duration: 0.4,
+            },
+        },
+    },
+    particles: {
+        color: {
+            value: '#e68e2e',
+        },
+        links: {
+            color: '#f5d393',
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
+        },
+        collisions: {
+            enable: true,
+        },
+        move: {
+            directions: 'none',
+            enable: true,
+            outModes: {
+                default: 'bounce',
+            },
+            random: false,
+            speed: 1,
+            straight: false,
+        },
+        number: {
+            density: {
+                enable: true,
+                area: 800,
+            },
+            value: 80,
+        },
+        opacity: {
+            value: 0.5,
+        },
+        shape: {
+            type: 'circle',
+        },
+        size: {
+            value: { min: 1, max: 5 },
+        },
+    },
+    detectRetina: true,
+}

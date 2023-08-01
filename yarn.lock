@@ -9184,6 +9184,7 @@ __metadata:
     react-scripts: 5.0.1
     react-scroll: ^1.8.9
     react-tsparticles: ^2.10.1
+    react-typed: ^1.2.0
     styled-components: ^5.3.10
     tsparticles: ^2.10.1
     web-vitals: ^2.1.4
@@ -10753,7 +10754,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
+"prop-types@npm:^15.6.0, prop-types@npm:^15.7.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:
@@ -11094,6 +11095,19 @@ __metadata:
   peerDependencies:
     react: ">=16"
   checksum: b4b75e62ea7da9006c8d1e12920c413c78c41f253e679914ed7dcdbccff4bab317f5c4d6e73d48980aff6508c25da5e3791e1ea3dea099f231fce95e98d8456b
+  languageName: node
+  linkType: hard
+
+"react-typed@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "react-typed@npm:1.2.0"
+  dependencies:
+    prop-types: ^15.6.0
+    typed.js: ^2.0.6
+  peerDependencies:
+    react: ^16.3.0
+    react-dom: ^16.3.0
+  checksum: c750d68710f918904b9bf07ea253e51d3447f9533c8277bd0afcdd20725b9e42e52ddcccd63ce93b4d0eb40db14573ccc82fce27b568b72a250d2167fc375b6f
   languageName: node
   linkType: hard
 
@@ -13120,6 +13134,13 @@ __metadata:
     for-each: ^0.3.3
     is-typed-array: ^1.1.9
   checksum: 2228febc93c7feff142b8c96a58d4a0d7623ecde6c7a24b2b98eb3170e99f7c7eff8c114f9b283085cd59dcd2bd43aadf20e25bba4b034a53c5bb292f71f8956
+  languageName: node
+  linkType: hard
+
+"typed.js@npm:^2.0.6":
+  version: 2.0.132
+  resolution: "typed.js@npm:2.0.132"
+  checksum: f4a612b44f9d0d3cc8dc79739b6b1a22a021941a0889b9ae57edbbede0a2bc1ea698c2ad5cf1814e42859a4fcca2fae87b222ceca2a3f7425ece9affa1ff55c6
   languageName: node
   linkType: hard
 

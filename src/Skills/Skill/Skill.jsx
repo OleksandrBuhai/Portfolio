@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import style from "./Skill.module.css"
-import containerStyle from "../../common/styles/Container.module.css"
+import containerStyle from "../../assests/styles/Container.module.css"
 
 function Skill(props) {
 

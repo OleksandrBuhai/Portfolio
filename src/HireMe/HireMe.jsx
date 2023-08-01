@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HireMe.module.css"
-import containerStyle from '../common/styles/Container.module.css'
+import containerStyle from '../assests/styles/Container.module.css'
 
 function HireMe() {
     return (

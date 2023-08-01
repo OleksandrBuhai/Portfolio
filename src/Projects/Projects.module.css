@@ -2,7 +2,13 @@
     min-height: 100vh;
     background-color: var(--secondBackgroundClr);
     gap: 5vh;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2rem;
+
 }
+
 
 .projectsContainer {
     align-items: center;
@@ -25,6 +31,7 @@
 }
 
 .header {
+
     font-size: xxx-large;
     color: rgb(185, 218, 247);
 }

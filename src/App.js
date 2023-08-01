@@ -12,12 +12,14 @@ import AboutMe from "./AboutMe/AboutMe";
 
 
 function App() {
+
+    console.log('sssss')
+
     return (
         <div className={style.App}>
             <Header/>
             <Main/>
             <AboutMe/>
-           {/* <Skills/>*/}
             <Projects/>
             <Contacts/>
             <Footer/>
