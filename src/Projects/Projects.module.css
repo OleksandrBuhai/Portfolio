@@ -1,7 +1,6 @@
 .projectsBlock {
     min-height: 100vh;
     background-color: var(--secondBackgroundClr);
-    gap: 5vh;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -19,19 +18,17 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 5vh;
+    gap: 5rem;
 }
 
 
 .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+
     align-items: center;
     gap: 2.5rem;
 }
 
 .header {
-
     font-size: xxx-large;
     color: rgb(185, 218, 247);
 }
@@ -59,4 +56,6 @@
     align-items: flex-start;
     display: flex;
     color: var(--textColor);
+    font-size: 2rem;
+    font-weight: 100;
 }

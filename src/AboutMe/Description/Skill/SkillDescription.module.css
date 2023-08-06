@@ -7,15 +7,13 @@
 .ul {
     list-style-type: none;
     font-size: 2rem;
+    font-weight: 100;
     padding: 0;
     background-color: #16171b;
     color: var(--textColor);
-    border-radius: 5px;
-
 }
 
 .li {
-
     padding: 10px 10px;
     display: flex;
     align-items: center;
@@ -27,9 +25,9 @@
     color: #e66465;
 }
 
-
 .span {
     margin-left: 10px;
+    font-weight: 100;
     font-size: 18px;
 }
 

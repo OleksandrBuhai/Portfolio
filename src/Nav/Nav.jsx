@@ -13,9 +13,9 @@ function Nav() {
                     </Link>
                 </li>
                 <li>
-                    <Link to="skills"
+                    <Link to="about"
                           smooth={true}>
-                        Skills
+                        About Me
                     </Link>
                 </li>
                 <li>

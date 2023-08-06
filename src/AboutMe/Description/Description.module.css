@@ -27,9 +27,8 @@
     position: relative;
 }
 
-.descriptionNav li.active{
-    border: 2px black solid;
-}
+
+
 
 .descriptionNav li.active:after{
     content: "";
@@ -42,7 +41,10 @@
     transform: translateX(-50%);
     display: block;
 }
+
+
  .content {
      box-shadow: 0 0 0.5rem rgb(185, 218, 247);
+
      opacity: 0.9;
  }

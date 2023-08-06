@@ -8,7 +8,7 @@
     list-style: none;
     display: flex;
     gap: 2rem;
-    color: white;
+    color: black;
 }
 
 .navMenu:hover li{
@@ -22,7 +22,7 @@
 
 .navMenu>li:hover {
     cursor: pointer;
-    color: aqua;
+    color: #EE6D52;
     filter: blur(0px);
 }
 

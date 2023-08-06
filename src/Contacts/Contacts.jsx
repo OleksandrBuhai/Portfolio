@@ -16,7 +16,7 @@ function Contacts() {
                 </div>
             <div className={styles.contactContainer}>
                 <div className={styles.textContainer}>
-                    <p>Let's get in touch</p>
+                    <span>Let's get in touch</span>
                     <span>oleksandr.buugay@gmail.com</span>
                     <div className={styles.socialLinks}>
                         <img src={GitHub} alt=""/>
@@ -49,7 +49,9 @@ function Contacts() {
                             </div>
                             <div>
                                 <p>
-                                    <input className={styles.button} type={"submit"}/>
+                                    <button className={styles.button} type={"button"}>
+                                        Submit
+                                    </button>
                                 </p>
                             </div>
                         </div>

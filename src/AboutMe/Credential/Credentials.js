@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import style from '../Credential/Credentials.module.css'
 import kpi from '../../assests/img/credentialsImg/kpi-big-logo.png'
-import kipt from '../../assests/img/credentialsImg/kipt1.png'
 
 const Credentials = () => {
 
@@ -27,11 +26,11 @@ const Credentials = () => {
                 return <div className={style.blocks}
                             key={index}
                             style={{backgroundImage: `url(${el.img})`, backgroundSize: 'cover'}}>
-                    <h6>
+                    <span>
                         {el.title}
-                    </h6>
+                    </span>
                     <span>{el.years}</span>
-                    <h6>{el.description}</h6>
+                    <span>{el.description}</span>
                 </div>
             })}
         </div>
@@ -76,11 +75,11 @@ export const Experience = () => {
                             onClick={check}
                             key={index}
                 >
-                    <h6>
+                    <span>
                         {el.title}
-                    </h6>
+                    </span>
                     <span>{el.years}</span>
-                    <h6>{el.description}</h6>
+                    <span>{el.description}</span>
 
                 </div>
             })}

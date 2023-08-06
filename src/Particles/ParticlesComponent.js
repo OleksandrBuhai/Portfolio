@@ -1,10 +1,8 @@
-import { useCallback } from "react";
+import {useCallback} from "react";
 import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { tsParticles } from 'tsparticles';
-import {heroOptions} from "./config/particles-config";
+import {loadFull} from "tsparticles";
 
-const PracticleContainer = ({options}) => {
+const ParticleContainer = ({options}) => {
     const particlesInit = async (engine) => {
         await loadFull(engine);
     };
@@ -25,4 +23,4 @@ const PracticleContainer = ({options}) => {
 
 
 
-export default PracticleContainer
+export default ParticleContainer

@@ -3,7 +3,6 @@
     text-decoration: none;
     border:none;
     outline: none;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 :root {
@@ -20,7 +19,6 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-
 }
 
 

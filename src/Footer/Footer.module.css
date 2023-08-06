@@ -1,10 +1,16 @@
 .footerContainer {
+    display: flex;
+    align-items: center;
     height: 10vh;
-    background-color: rgb(138, 87, 10);
+    background-color: black;
+    width: 100%;
 }
 .footersBlock {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    color: var(--textColor);
 }
 .span{
     background-color: azure;
@@ -15,8 +21,34 @@
     margin-left: 3vh;
 }
 .goUp{
+    color: #EE6D52;
+    font-size: 1.5rem;
     cursor: pointer;
 }
+
+
+.goUp:hover {
+    animation: bounce 0.5s;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+
 
 
 

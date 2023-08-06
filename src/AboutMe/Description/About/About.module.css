@@ -5,12 +5,8 @@
     font-size: 2rem;
     background-color:  #16171b;
     color: var(--textColor);
-    border-radius: 5px;
+    font-weight: 100;
     align-items: center;
-    padding: 10px 10px;
-    transition: transform 0.2s ease;
+    padding: 20px 30px;
 }
 
-.about :hover {
-    transform: scale(1.1);
-}

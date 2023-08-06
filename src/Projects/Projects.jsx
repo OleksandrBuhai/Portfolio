@@ -4,9 +4,9 @@ import containerStyle from '../assests/styles/Container.module.css'
 import Project from "./Project/Project";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import {heroOptions} from "../Particles/config/particles-config";
 import socialNetworkImg from '../../src/assests/img/projectsImg/socialNetwork.webp'
-import todoListIMg from '../../src/assests/img/projectsImg/todolist.jpeg'
+import todoListIMg from '../../src/assests/img/projectsImg/todolist.png'
+import gymWebImg from '../../src/assests/img/projectsImg/GymWebSite.png'
 
 
 function Projects() {
@@ -42,16 +42,16 @@ function Projects() {
         {
             url: false,
             gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
-            picture: '',
+            picture: gymWebImg,
             name: 'Gym Website',
             text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another ' +
                 'technique for making that look more cool and more interesting than another similar projects on the market'
         }
     ]
-    const mainCopyPRCTLS = {...heroOptions}
+
 
     return (
-        <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`} id="projects">
+        <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`} id={'projects'}>
 
             <div className={containerStyle.container}>
 
@@ -71,7 +71,6 @@ function Projects() {
                     </div>
                 })
                 }
-
             </div>
         </div>
     )
