@@ -8,9 +8,6 @@ import ParticleContainer from "../Particles/ParticlesComponent";
 
 const AboutMe = () => {
 
-
-
-
         return (
             <div className={style.container} id={"about"}>
                 <ParticleContainer options={heroOptions}/>
