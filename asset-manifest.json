@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.546695ec.css",
-    "main.js": "/Portfolio/static/js/main.43f103a2.js",
+    "main.css": "/Portfolio/static/css/main.ad419fe4.css",
+    "main.js": "/Portfolio/static/js/main.8c6ad6f7.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.eb65d45e61aceb4f9416.png",
+    "static/media/test2Ava.png": "/Portfolio/static/media/test2Ava.8d684a86be3f2d6398d7.png",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/todolist.png": "/Portfolio/static/media/todolist.3f6644cf423e67cd859f.png",
     "static/media/kpi-big-logo.png": "/Portfolio/static/media/kpi-big-logo.18db24a8eb3187a8c6f8.png",
     "static/media/fa-brands-400.ttf": "/Portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/circles.png": "/Portfolio/static/media/circles.73f92270cdef7e342fc7.png",
@@ -13,25 +16,19 @@
     "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/socialNetwork.webp": "/Portfolio/static/media/socialNetwork.2962a0ad332fdff925d8.webp",
-    "static/media/kipt1.png": "/Portfolio/static/media/kipt1.c6ae1dd9551792cfb6e0.png",
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/ellipse-1.png": "/Portfolio/static/media/ellipse-1.c881c5d7b8697df5be18.png",
     "static/media/ellipse-2.png": "/Portfolio/static/media/ellipse-2.30d8c97935171cb3c6ba.png",
     "static/media/ellipse-3.png": "/Portfolio/static/media/ellipse-3.30d8c97935171cb3c6ba.png",
     "static/media/fa-v4compatibility.ttf": "/Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "static/media/bxl-react.svg": "/Portfolio/static/media/bxl-react.07774d3d9d230ec8e5118276768502af.svg",
-    "static/media/bxl-edge.svg": "/Portfolio/static/media/bxl-edge.b4d0ec6a09105f622323d832820b0916.svg",
-    "static/media/bxl-typescript.svg": "/Portfolio/static/media/bxl-typescript.a597b1a14c13cf32b5a5db9ad653ec44.svg",
-    "static/media/bxl-javascript.svg": "/Portfolio/static/media/bxl-javascript.9a73de62578dab08978140babd4b4c67.svg",
     "index.html": "/Portfolio/index.html",
-    "static/media/bxl-html5.svg": "/Portfolio/static/media/bxl-html5.d399be1c0e09cc0718777cdb9f6de6ab.svg",
-    "main.546695ec.css.map": "/Portfolio/static/css/main.546695ec.css.map",
-    "main.43f103a2.js.map": "/Portfolio/static/js/main.43f103a2.js.map",
+    "main.ad419fe4.css.map": "/Portfolio/static/css/main.ad419fe4.css.map",
+    "main.8c6ad6f7.js.map": "/Portfolio/static/js/main.8c6ad6f7.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.546695ec.css",
-    "static/js/main.43f103a2.js"
+    "static/css/main.ad419fe4.css",
+    "static/js/main.8c6ad6f7.js"
   ]
 }
