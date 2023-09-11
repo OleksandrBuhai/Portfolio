@@ -1,7 +1,7 @@
 
 .main {
     height: 100vh;
-    background-color: #16171b;
+    background: linear-gradient(to bottom, #000, #333);
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -20,6 +20,8 @@
     padding: 5rem;
     color: var(--textColor);
 }
+
+
 
 .text h3{
     font-size: 2.5rem;
@@ -47,6 +49,29 @@
 }
 .text h3:nth-of-type(3):hover {--_p: 70%}
 
+.greet{
+    cursor: pointer;
+    animation: wave 0.5s ease infinite;
+}
+
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
 
 
 .photoContainer{
@@ -72,7 +97,9 @@
     position: absolute;
    right: 100px;
     top: 43px;
+
 }
+
 .eclipse2 {
     position: absolute;
     top: 20px;
@@ -86,3 +113,23 @@
 }
 
 
+@media (max-width: 390px) {
+   .main {
+       display: flex;
+       flex-direction: column;
+   }
+
+    .text {
+        padding: 5rem;
+    }
+
+    .text h3{
+        font-size: 2rem;
+    }
+
+    .photo {
+        max-width: 200px;
+        max-height: 100px;
+    }
+
+}

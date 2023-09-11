@@ -30,6 +30,7 @@ function Contacts() {
                             <div >
                                 <p>
                                     <input  className={styles.input} placeholder={'Name'}/>
+
                                 </p>
                             </div>
                             <div>

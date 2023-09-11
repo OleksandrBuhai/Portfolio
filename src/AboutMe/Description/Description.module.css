@@ -11,7 +11,7 @@
     padding: 0;
     bottom: 0;
     gap: 2rem;
-    background-color: #e66465;
+    background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     border-radius: 5px;
     text-align: center;
     position: inherit;
@@ -34,7 +34,7 @@
     content: "";
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
-    border-top: 6px solid #F85353;
+    border-top: 6px solid white;
     position: absolute;
     bottom: -6px;
     left: 50%;

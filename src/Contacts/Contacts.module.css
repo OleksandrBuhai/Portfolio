@@ -1,5 +1,5 @@
 .contactsBlock {
-    background-color: var(--mainBackgroundClr);
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -58,16 +58,25 @@
 
 }
 
+
 .input {
     width: 100%;
     padding: 13px 20px;
     border: 1px solid #eee;
     letter-spacing: 1px;
     border-radius: 5px;
-    transition: 0.3s;
+
     outline: none;
     color: var(--textColor);
     background-color: #040605;
+}
+
+
+.input:focus::placeholder {
+    transform: translateY(-200%);
+    font-size: 12px;
+    color: var(--textColor);
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
 }
 
 .textArea {
@@ -82,7 +91,13 @@
     outline: none;
     color: var(--textColor);
     background-color: #040605;
-    ;
+}
+
+.textArea:focus::placeholder {
+    transform: translateY(-200%);
+    font-size: 12px;
+    color: var(--textColor);
+    transition: transform 0.3s ease, font-size 0.3s ease, color 0.3s ease;
 }
 
 .button {

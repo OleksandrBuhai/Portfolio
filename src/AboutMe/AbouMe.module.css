@@ -1,5 +1,5 @@
 .container {
-    background-color: var(--mainBackgroundClr);
+    background: linear-gradient(to bottom, #333, #000);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

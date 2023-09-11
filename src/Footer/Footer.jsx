@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import containerStyle from '../assests/styles/Container.module.css'
 import {Link} from "react-scroll";
 import {FaArrowUp} from "react-icons/fa";
 
