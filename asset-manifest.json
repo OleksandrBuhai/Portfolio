@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.0830a4e8.css",
-    "main.js": "/Portfolio/static/js/main.93bcbb9f.js",
+    "main.css": "/Portfolio/static/css/main.fd1c7002.css",
+    "main.js": "/Portfolio/static/js/main.8465f425.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
-    "static/media/avatar.png": "/Portfolio/static/media/avatar.eb65d45e61aceb4f9416.png",
     "static/media/test2Ava.png": "/Portfolio/static/media/test2Ava.8d684a86be3f2d6398d7.png",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/Influexa.jpg": "/Portfolio/static/media/Influexa.2454d6e273372a8436f8.jpg",
     "static/media/todolist.png": "/Portfolio/static/media/todolist.3f6644cf423e67cd859f.png",
     "static/media/kpi-big-logo.png": "/Portfolio/static/media/kpi-big-logo.18db24a8eb3187a8c6f8.png",
     "static/media/fa-brands-400.ttf": "/Portfolio/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -23,12 +23,12 @@
     "static/media/fa-v4compatibility.ttf": "/Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/Portfolio/index.html",
-    "main.0830a4e8.css.map": "/Portfolio/static/css/main.0830a4e8.css.map",
-    "main.93bcbb9f.js.map": "/Portfolio/static/js/main.93bcbb9f.js.map",
+    "main.fd1c7002.css.map": "/Portfolio/static/css/main.fd1c7002.css.map",
+    "main.8465f425.js.map": "/Portfolio/static/js/main.8465f425.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0830a4e8.css",
-    "static/js/main.93bcbb9f.js"
+    "static/css/main.fd1c7002.css",
+    "static/js/main.8465f425.js"
   ]
 }
