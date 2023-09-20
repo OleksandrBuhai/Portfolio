@@ -1,0 +1,27 @@
+.skill {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--secondBackgroundClr);
+    transition: 0.5s;
+    border-radius: 15px;
+    border: solid 3px #1f242d;
+    box-shadow: 0 0 1rem var(--secondBackgroundClr);
+}
+.skill:hover{
+    transform: scale(1.1);
+    border: solid 3px rgb(185, 218, 247);
+}
+
+.icon img {
+height: 60px;
+width: 60px;
+background-color: azure;
+}
+
+.description{
+    color: rgb(185, 218, 247);
+    transition: .5s ease;
+}

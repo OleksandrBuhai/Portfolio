@@ -1,0 +1,155 @@
+
+.main {
+    width: 100%;
+    min-height: 50rem;
+    height: auto;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+    position: relative;
+    overflow: hidden;
+}
+
+
+.text {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    padding: 5rem;
+    margin: 0 auto;
+    color: var(--textColor);
+}
+
+.text:nth-of-type(3){
+    width: 5rem;
+}
+
+.text h3 {
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+.text h3:nth-of-type(2) {
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.text h3:nth-of-type(3) {
+    --s: 0.1em;
+    --c: white;
+
+    color: #EE6D52;
+    padding-bottom: var(--s);
+    background: linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
+    -webkit-background-clip: text, padding-box;
+    background-clip: text, padding-box;
+    transition: 0.5s;
+}
+
+.text h3:nth-of-type(3):hover {
+    --_p: 70%
+}
+
+.greet {
+    cursor: pointer;
+    animation: wave 0.5s ease infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+.photoContainer {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    max-width: 737px;
+    max-height: 678px;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.shapeInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+.eclipse1 {
+
+    position: absolute;
+    right: 100px;
+    top: 43px;
+
+}
+
+.eclipse2 {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.eclipse3 {
+    position: absolute;
+    top: -10px;
+    right: 25px;
+}
+
+
+@media (max-width: 760px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .text h3 {
+        font-size: 2rem;
+    }
+
+
+    .photo {
+        position: relative;
+        min-width: 100%;
+        bottom: 0;
+    }
+
+    .shapeInner {
+        display: none;
+    }
+
+    .eclipse1 {
+        width: 10rem;
+        height: 2rem;
+        right: 500px;
+        top: 43px;
+
+    }
+
+}

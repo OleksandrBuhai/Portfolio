@@ -1,0 +1,76 @@
+.projectsBlock {
+    min-height: 100vh;
+    background-color: var(--secondBackgroundClr);
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+
+
+.projectsContainer {
+    align-items: center;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+
+
+.header {
+    font-size: xxx-large;
+    color: rgb(185, 218, 247);
+}
+
+.even {
+    display: flex;
+    flex-direction: row;
+}
+
+.odd {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textContainer h4{
+    font-size: 2rem;
+    color: var(--textColor);
+}
+
+.textContainer span {
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    color: var(--textColor);
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+
+
+@media (max-width: 760px) {
+
+    .textContainer {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projects {
+        gap: 0;
+    }
+
+}

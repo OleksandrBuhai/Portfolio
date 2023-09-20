@@ -1,12 +1,13 @@
 import React from 'react';
 import style from './App.module.css';
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
-import Main from "./Main/Main/Main";
-import Projects from "./Projects/Projects";
-import Contacts from "./Contacts/Contacts";
-import AboutMe from "./AboutMe/AboutMe";
-import Transition from "./Transinition/Transinition";
+import Footer from './components/Footer/Footer';
+import {Main} from "./components/Main/Main/Main";
+import Projects from "./components/Projects/Projects";
+import Contacts from "./components/Contacts/Contacts";
+import {AboutMe} from "./components/AboutMe/AboutMe";
+import Transition from "./components/Transinition/Transinition";
+import {Header} from "./components/Header/Header";
+
 
 
 function App() {

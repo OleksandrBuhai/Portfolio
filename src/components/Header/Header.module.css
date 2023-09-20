@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    height: 5vh;
+    width: 100%;
+    opacity: 0.9;
+    background-color: antiquewhite;
+    z-index: 100;
+}
+
+@media (max-width: 760px) {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+}
+

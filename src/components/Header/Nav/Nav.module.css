@@ -1,0 +1,40 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10vh;
+}
+
+.navMenu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.navMenu:hover li{
+    filter: blur(5px);
+}
+
+
+
+.huy {
+    cursor: pointer;
+    color: #EE6D52;
+    filter: blur(0px);
+}
+
+.navMenu>li {
+    display: block;
+    transition: .5s;
+}
+
+.navMenu>li:hover {
+    cursor: pointer;
+    color: #EE6D52;
+    filter: blur(0px);
+}
+
+
+
+
