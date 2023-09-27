@@ -33,21 +33,11 @@
 }
 
 .text h3:nth-of-type(3) {
-    --s: 0.1em;
-    --c: white;
 
     color: #EE6D52;
-    padding-bottom: var(--s);
-    background: linear-gradient(90deg, var(--c) 50%, #000 0) calc(100% - var(--_p, 0%))/200% 100%,
-    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p, 0%) var(--s) no-repeat;
-    -webkit-background-clip: text, padding-box;
-    background-clip: text, padding-box;
-    transition: 0.5s;
+
 }
 
-.text h3:nth-of-type(3):hover {
-    --_p: 70%
-}
 
 .greet {
     cursor: pointer;

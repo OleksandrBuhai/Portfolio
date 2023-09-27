@@ -53,11 +53,33 @@ const StyledButton = styled.a`
   overflow: hidden;
   margin-right: 50px;
 
+
   &:hover {
     background: antiquewhite;
     color: #050801;
-    box-shadow: 0 0 5px antiquewhite, 0 0 25px antiquewhite, 0 0 50px antiquewhite, 0 0 200px antiquewhite;
+    /*box-shadow: 0 0 5px antiquewhite, 0 0 25px antiquewhite, 0 0 50px antiquewhite, 0 0 200px antiquewhite;*/
     -webkit-box-reflect: below 1px linear-gradient(transparent, white);
+
+    /* Pause animations on hover */
+    span:nth-child(1) {
+      background: none;
+      animation-play-state: paused;
+    }
+
+    span:nth-child(2) {
+      background: none;
+      animation-play-state: paused;
+    }
+
+    span:nth-child(3) {
+      background: none;
+      animation-play-state: paused;
+    }
+
+    span:nth-child(4) {
+      background: none;
+      animation-play-state: paused;
+    }
   }
 
   &:nth-child(1) {
@@ -81,6 +103,7 @@ const StyledButton = styled.a`
     background: #EE6D52;
     animation: ${animate1} 2s linear infinite;
   }
+  
 
   span:nth-child(2) {
     top: -100%;
@@ -119,9 +142,9 @@ export const Button = (props) => {
     const handleDownloadPDF = () => {
         const link = document.createElement("a");
         link.href = pdfURL;
-        link.download = "Alex_Buhai_CV.pdf"; // Назва, під якою файл буде завантажено.
+        link.download = "Alex_Buhai_CV.pdf";
 
-        // Симулюйте клік на посиланні для початку завантаження.
+
         link.click();
     };
 

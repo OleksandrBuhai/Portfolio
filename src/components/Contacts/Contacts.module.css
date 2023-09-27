@@ -170,11 +170,12 @@
 
     .textContainer {
     align-items: center;
+
         width: 100%;
     }
     .formContainer {
-
-        width: 100%;
+        margin: 0 auto;
+        width: 90%;
     }
   .centerButton {
       display: flex;
