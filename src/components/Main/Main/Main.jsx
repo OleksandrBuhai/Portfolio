@@ -15,6 +15,9 @@ import eclipse3 from "../../../assests/img/eclipse/ellipse-3.png";
 
 export const Main =()=> {
 
+
+
+
     return (
         <div className={style.main} id="Main">
             <div className={containerStyle.container}>
@@ -32,7 +35,8 @@ export const Main =()=> {
                     </h3>
                     <h3>I am Oleksandr Buhai</h3>
                     <h3>Front-end developer</h3>
-                    <Button  name={"Download CV"}/>
+                    <Button  name={"Download CV"} onClick={()=>{
+                        console.log('huy')}}/>
                 </motion.div>
                 <motion.div className={style.photoContainer}>
                     <motion.div

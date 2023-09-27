@@ -39,7 +39,7 @@ const animate4 = keyframes`
 
 
 const StyledButton = styled.a`
-  
+  cursor: pointer;
   width: 15rem;
   position: relative;
   display: inline-block;
@@ -114,8 +114,20 @@ const StyledButton = styled.a`
 `;
 
 export const Button = (props) => {
+    const pdfURL = "https://github.com/OleksandrBuhai/Portfolio/raw/main/src/assests/animation/resume/Alex_Buhai_CV.pdf";
+
+    const handleDownloadPDF = () => {
+        const link = document.createElement("a");
+        link.href = pdfURL;
+        link.download = "Alex_Buhai_CV.pdf"; // Назва, під якою файл буде завантажено.
+
+        // Симулюйте клік на посиланні для початку завантаження.
+        link.click();
+    };
+
+
     return (
-        <StyledButton>
+        <StyledButton onClick={handleDownloadPDF}>
             {props.name}
             <span></span>
             <span></span>

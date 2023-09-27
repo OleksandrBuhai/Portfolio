@@ -1,12 +1,37 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./Contacts.module.css";
 import GitHub from "../../assests/img/socialneb/assets/github.png";
 import LinkedIn from "../../assests/img/socialneb/assets/linkedin.png";
 import Circles from "../../assests/animation/Circle/Circle";
 import Bulb from "../../assests/animation/Bulb/Bulb";
-
+import emailjs from '@emailjs/browser';
 
 function Contacts() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                'service_h44wvlb',
+                'template_von5hp4',
+                form.current,
+                'Hc34q67_kNB4O02CX'
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+
+                    window.alert('message sent')
+                    form.current.reset();
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+    };
+
     return (
         <div className={styles.contactsBlock} id="Contacts">
             <div className={styles.header}>
@@ -18,39 +43,61 @@ function Contacts() {
                     <span>Let's get in touch</span>
                     <span>oleksandr.buugay@gmail.com</span>
                     <div className={styles.socialLinks}>
-
-                        <a href={'https://github.com/OleksandrBuhai'}><img src={GitHub}/></a>
-                        <a href={' https://www.linkedin.com/in/oleksandr-buhai-95a35227b/'}><img src={LinkedIn}/></a>
-
+                        <a href={'https://github.com/OleksandrBuhai'}>
+                            <img src={GitHub} alt="GitHub" />
+                        </a>
+                        <a href={' https://www.linkedin.com/in/oleksandr-buhai-95a35227b/'}>
+                            <img src={LinkedIn} alt="LinkedIn" />
+                        </a>
                     </div>
                 </div>
                 <div className={styles.formContainer}>
-                    <form>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <div>
                                 <p>
-                                    <input className={styles.input} placeholder={'Name'}/>
-
+                                    <input
+                                        className={styles.input}
+                                        type="text"
+                                        name="user_name"
+                                        placeholder="Name"
+                                    />
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    <input className={styles.input} placeholder={'Email adress'}/>
+                                    <input
+                                        className={styles.input}
+                                        type="email"
+                                        name="user_email"
+                                        placeholder="Email address"
+                                    />
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    <input className={styles.input} placeholder={'Subject'}/>
+                                    <input
+                                        className={styles.input}
+                                        placeholder="Subject"
+                                        name="subject"
+                                    />
                                 </p>
                             </div>
                             <div>
                                 <p>
-                                    <textarea className={styles.textArea} placeholder={'Enter your messasge'}/>
+                  <textarea
+                      name="message"
+                      className={styles.textArea}
+                      placeholder="Enter your message"
+                  />
                                 </p>
                             </div>
                             <div className={styles.centerButton}>
                                 <p>
-                                    <button className={styles.button} type={"button"}>
+                                    <button
+                                        type="submit"
+                                        className={styles.button}
+                                    >
                                         Submit
                                     </button>
                                 </p>
@@ -58,12 +105,11 @@ function Contacts() {
                         </div>
                     </form>
                 </div>
-
             </div>
-            <Bulb/>
-            <Circles/>
+            <Bulb />
+            <Circles />
         </div>
-    )
+    );
 }
 
-export default Contacts
+export default Contacts;
