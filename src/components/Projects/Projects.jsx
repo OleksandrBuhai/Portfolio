@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import styles from "./Projects.module.css";
-import containerStyle from '../../assests/styles/Container.module.css'
 import Project from "./Project/Project";
 import AOS from "aos";
 import 'aos/dist/aos.css';
@@ -19,6 +18,28 @@ function Projects() {
 
     const projectInfo = [
         {
+            url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
+            picture: gymWebImg,
+            name: 'Gym Website',
+            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another ' +
+                'technique for making that look more cool and more interesting than another similar projects on the market'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
+            picture: influexaImg,
+            name: 'Portfolio',
+            text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/Influenser',
+            picture: influexaImg,
+            name: 'Influexa',
+            text: 'Landing page. Make with Vite + React + TailwindCSS.'
+        },
+        {
             url: ' ',
             gitHubLink: 'https://github.com/OleksandrBuhai/ToDoList',
             picture: todoListIMg,
@@ -33,28 +54,9 @@ function Projects() {
             name: 'Social Network',
             text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries '
         },
-        {
-            url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
-            picture: '',
-            name: 'Portfolio',
-            text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
-        },
-        {
-            url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
-            picture: gymWebImg,
-            name: 'Gym Website',
-            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another ' +
-                'technique for making that look more cool and more interesting than another similar projects on the market'
-        },
-        {
-            url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/Influenser',
-            picture: influexaImg,
-            name: 'Influexa',
-            text: 'Landing page. Make with Vite + React + TailwindCSS.'
-        }
+
+
+
 
     ]
 

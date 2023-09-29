@@ -1,5 +1,6 @@
 .projectContainer {
-    width: 70rem;
+    width: 60%;
+
     display: flex;
     justify-content: space-between;
     margin-bottom: 5vh;
@@ -7,8 +8,6 @@
 }
 
 .project {
-    width: 100%;
-    height: 70vh;
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -16,44 +15,21 @@
 }
 
 .icon {
-
+    width: 100%;
+    max-height: 50rem;
     background-color: rgb(197, 142, 248);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
 }
 
-.textContainer{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-.text {
-    gap: 5px;
-    flex-direction: column;
-    align-items: flex-start;
-    display: flex;
-    color: var(--textColor);
-}
-
-.portfolio-box {
-    position: relative;
-    overflow: hidden;
-    display: flex;
-}
 
 .project img {
     width: 100%;
-    height: 40rem;
+    max-height: 50rem;
     transition: .5s ease;
 }
 
 .project:hover img {
     transform: scale(1.1);
-    /* Chrome, Safari, Opera */
     filter: blur(1px);
 }
 
@@ -78,7 +54,6 @@
     transform: translateY(0%);
 }
 
-/* LinkWithIcon.css */
 
 .linkContainer {
     text-decoration: none;

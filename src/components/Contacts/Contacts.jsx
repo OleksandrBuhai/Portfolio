@@ -41,7 +41,7 @@ function Contacts() {
             <div className={styles.contactContainer}>
                 <div className={styles.textContainer}>
                     <span>Let's get in touch</span>
-                    <span>oleksandr.buugay@gmail.com</span>
+
                     <div className={styles.socialLinks}>
                         <a href={'https://github.com/OleksandrBuhai'}>
                             <img src={GitHub} alt="GitHub" />
