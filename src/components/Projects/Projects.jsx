@@ -53,18 +53,18 @@ function Projects() {
             gitHubLink: 'https://github.com/OleksandrBuhai/Influenser',
             picture: influexaImg,
             name: 'Influexa',
-            text: 'Landing page. Make with Vite + ReactTs + TailwindCSS.Also prepared for backend devolepment'
+            text: 'Landing page. Make with Vite + React + TailwindCSS.'
         }
 
     ]
 
 
     return (
-        <div className={`${styles.projectsBlock} ${containerStyle.bckgrndColor2}`} id={'Projects'}>
+        <div className={styles.projectsBlock } id={'Projects'}>
 
-            <div className={containerStyle.container}>
+            <div className={styles.projectsContainer}>
 
-                <h3 className={styles.header}>My projects</h3>
+                <h3 className={styles.header}>Projects</h3>
 
                 {projectInfo.map((el, index) => {
 

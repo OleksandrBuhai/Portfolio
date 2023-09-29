@@ -1,5 +1,5 @@
 .projectContainer {
-    width: 60%;
+    width: 70rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 5vh;
@@ -16,8 +16,7 @@
 }
 
 .icon {
-    width: 100vh;
-    height: 100vh;
+
     background-color: rgb(197, 142, 248);
     display: flex;
     justify-content: center;
@@ -48,13 +47,13 @@
 
 .project img {
     width: 100%;
-    height: 100%;
+    height: 40rem;
     transition: .5s ease;
 }
 
 .project:hover img {
     transform: scale(1.1);
-     /* Chrome, Safari, Opera */
+    /* Chrome, Safari, Opera */
     filter: blur(1px);
 }
 
@@ -94,7 +93,7 @@
 
 
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
 
     .projectContainer {
         width: 100%;
@@ -102,6 +101,8 @@
     }
 
     .project {
+        margin-top: 5rem;
+
         height: auto;
     }
 

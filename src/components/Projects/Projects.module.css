@@ -23,7 +23,8 @@
 
 
 .header {
-    font-size: xxx-large;
+    font-size: 5rem;
+
     color: rgb(185, 218, 247);
 }
 
@@ -40,12 +41,14 @@
 .textContainer{
     width: 30%;
     display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
 
 .textContainer h4{
     font-size: 2rem;
+
     color: var(--textColor);
 }
 
@@ -63,14 +66,32 @@
 
 @media (max-width: 900px) {
 
+
+
+
     .textContainer {
         width: 100%;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 2rem;
     }
 
     .projects {
         gap: 0;
+
+    }
+
+    .even {
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
+
+    }
+
+    .odd {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        border-top:1px solid red;
+        border-bottom: 1px solid red;
     }
 
 }

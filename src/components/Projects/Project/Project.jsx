@@ -11,7 +11,7 @@ function Project(props) {
 
         <div className={styles.projectContainer}  >
         <div className={styles.project}>
-            <img className={styles.icon} src={props.picture} alt=''></img>
+            <img  src={props.picture} alt=''></img>
             <div className={styles.layer}>
                <a href={props.url} className={styles.linkContainer}>
                  <FaLink className={styles.linkIcon}/>
