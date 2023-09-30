@@ -1,6 +1,5 @@
 .descriptionContainer {
     width: 100%;
-    padding-right: 2rem;
     position: relative;
 
 }
@@ -10,7 +9,7 @@
     display: flex;
     padding: 0;
     bottom: 0;
-    gap: 2rem;
+    justify-content: space-around;
     background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
     border-radius: 5px;
     text-align: center;

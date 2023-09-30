@@ -1,34 +1,33 @@
-.skill {
-    display: flex;
-    height: 100%;
-    width: 100%;
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(15rem, 1fr));
+    gap: 2rem;
+    padding: 2rem;
 }
 
-.ul {
-    list-style-type: none;
-    font-size: 2rem;
-    font-weight: 100;
-    padding: 0;
-    background-color: #16171b;
-    color: var(--textColor);
-}
+.gridItem {
 
-.li {
-    padding: 10px 10px;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
-    cursor: pointer;
+    flex-direction: column;
+
+    color: white;
+    font-size: 2rem;
+    box-shadow: inset 10px -8px 8px -8px rgb(225, 5, 5);
 }
 
-.ul :hover {
-    color: #e66465;
+.gridItem svg {
+
+    width: 10rem;
+    height: 5rem;
+    color: white;
 }
 
 .span {
-    margin-left: 10px;
-    font-weight: 100;
-    font-size: 18px;
+
 }
+
+
 
 

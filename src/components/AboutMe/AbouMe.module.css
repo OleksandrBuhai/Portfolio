@@ -29,15 +29,8 @@
     align-content: space-around;
     justify-content: space-around;
 
-
 }
 
-.photo {
-    display: flex;
-    flex: 2;
-    margin-top: 10rem;
-
-}
 
 .description {
     display: flex;

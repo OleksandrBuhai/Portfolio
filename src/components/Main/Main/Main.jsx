@@ -11,7 +11,7 @@ import Avatar from "../../../reusableComponents/Avatar/Avatar";
 import eclipse1 from "../../../assests/img/eclipse/ellipse-1.png";
 import eclipse2 from "../../../assests/img/eclipse/ellipse-2.png";
 import eclipse3 from "../../../assests/img/eclipse/ellipse-3.png";
-
+import img from '../../../assests/img/photo/testSup.png'
 
 export const Main =()=> {
 
@@ -75,7 +75,7 @@ export const Main =()=> {
                                 <img src={eclipse3} alt=""/>
                             </motion.div>
                         </div>
-                        <Avatar/>
+                        <Avatar img={img}/>
                     </motion.div>
                 </motion.div>
             </div>
