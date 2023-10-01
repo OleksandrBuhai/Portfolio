@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.572d89d9.css",
-    "main.js": "/Portfolio/static/js/main.55a45700.js",
+    "main.css": "/Portfolio/static/css/main.fe540da6.css",
+    "main.js": "/Portfolio/static/js/main.d3bd6554.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/testSup.png": "/Portfolio/static/media/testSup.90e4220f57cdc669d639.png",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
     "static/media/test2Ava.png": "/Portfolio/static/media/test2Ava.8d684a86be3f2d6398d7.png",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/PNG image 4.png": "/Portfolio/static/media/PNG image 4.f6d71ab2b4be24993c7a.png",
     "static/media/Influexa.jpg": "/Portfolio/static/media/Influexa.2454d6e273372a8436f8.jpg",
     "static/media/todolist.png": "/Portfolio/static/media/todolist.3f6644cf423e67cd859f.png",
     "static/media/kpi-big-logo.png": "/Portfolio/static/media/kpi-big-logo.18db24a8eb3187a8c6f8.png",
@@ -22,13 +24,20 @@
     "static/media/ellipse-3.png": "/Portfolio/static/media/ellipse-3.30d8c97935171cb3c6ba.png",
     "static/media/fa-v4compatibility.ttf": "/Portfolio/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/Portfolio/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/react.svg": "/Portfolio/static/media/react.de52f39c3dbb4ec0ca1e5d8841c0c126.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.aa6857515a9341fa8112edb8aa67bab8.svg",
+    "static/media/ts.svg": "/Portfolio/static/media/ts.e227b9290516c48fb7422252196ce801.svg",
+    "static/media/git.svg": "/Portfolio/static/media/git.21cb85bbf3a2775c5ce0889a814da228.svg",
+    "static/media/js.svg": "/Portfolio/static/media/js.c91fcfb030c2bf5948588b1338cf739c.svg",
+    "static/media/css.svg": "/Portfolio/static/media/css.8d74d243d5015da894cc09a473123103.svg",
     "index.html": "/Portfolio/index.html",
-    "main.572d89d9.css.map": "/Portfolio/static/css/main.572d89d9.css.map",
-    "main.55a45700.js.map": "/Portfolio/static/js/main.55a45700.js.map",
+    "static/media/html.svg": "/Portfolio/static/media/html.69a10465801a7b417c110a09cfdc1176.svg",
+    "main.fe540da6.css.map": "/Portfolio/static/css/main.fe540da6.css.map",
+    "main.d3bd6554.js.map": "/Portfolio/static/js/main.d3bd6554.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.572d89d9.css",
-    "static/js/main.55a45700.js"
+    "static/css/main.fe540da6.css",
+    "static/js/main.d3bd6554.js"
   ]
 }
