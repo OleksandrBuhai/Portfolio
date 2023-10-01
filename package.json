@@ -27,6 +27,7 @@
     "react-scroll": "^1.8.9",
     "react-tsparticles": "^2.10.1",
     "react-typed": "^1.2.0",
+    "react-visibility-sensor": "^5.1.1",
     "styled-components": "^5.3.10",
     "tsparticles": "^2.10.1",
     "web-vitals": "^2.1.4"

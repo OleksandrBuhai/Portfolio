@@ -2,8 +2,14 @@
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(3, minmax(15rem, 1fr));
-    gap: 2rem;
-    padding: 2rem;
+    gap: 5rem;
+    place-items: center;
+    padding: 1rem 0rem;
+
+}
+
+.circular {
+    width: 7rem;
 }
 
 .gridItem {
@@ -11,23 +17,35 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-
     color: white;
-    font-size: 2rem;
-    box-shadow: inset 10px -8px 8px -8px rgb(225, 5, 5);
+    font-size: 0.5rem;
+}
+
+.gridItem span {
+    font-size: 0.75rem;
 }
 
 .gridItem svg {
-
-    width: 10rem;
+    width: 2rem;
     height: 5rem;
     color: white;
 }
 
-.span {
+@media (max-width: 960px) {
+
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .circular{
+        width: 4rem;
+    }
+
+
+    .gridItem span {
+        font-size: 0;
+    }
+
 
 }
-
-
-
-

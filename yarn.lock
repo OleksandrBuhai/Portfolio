@@ -9306,6 +9306,7 @@ __metadata:
     react-scroll: ^1.8.9
     react-tsparticles: ^2.10.1
     react-typed: ^1.2.0
+    react-visibility-sensor: ^5.1.1
     styled-components: ^5.3.10
     tsparticles: ^2.10.1
     typescript: ^5.2.2
@@ -11239,6 +11240,18 @@ __metadata:
     react: ^16.3.0
     react-dom: ^16.3.0
   checksum: c750d68710f918904b9bf07ea253e51d3447f9533c8277bd0afcdd20725b9e42e52ddcccd63ce93b4d0eb40db14573ccc82fce27b568b72a250d2167fc375b6f
+  languageName: node
+  linkType: hard
+
+"react-visibility-sensor@npm:^5.1.1":
+  version: 5.1.1
+  resolution: "react-visibility-sensor@npm:5.1.1"
+  dependencies:
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ">=16.0.0"
+    react-dom: ">=16.0.0"
+  checksum: ebce7bc743071930a2dd333a041c4a99aac24d5059c47a52eff25a8d81ab9307fadc87b8a6655ebb3154f5c1ceafcc309ae04ee07a7d5fad2949a6903d15acd5
   languageName: node
   linkType: hard
 
