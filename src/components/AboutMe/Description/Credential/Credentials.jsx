@@ -1,26 +1,35 @@
 import React, {useState} from 'react';
 import style from './Credentials.module.css'
 import kpi from '../../../../assests/img/credentialsImg/kpi-big-logo.png'
+import itInc from '../../../../assests/img/credentialsImg/itIncubator.svg'
 
 export const Credentials = () => {
 
-    const credential = [{
+    const credential = [
+        {
+            title: 'IT-Incubator',
+            years: '2020-2021',
+            description: 'Front End Developer',
+            img:itInc
+        },
+        {
 
         title: 'NTUU KPI',
         years: '2015-2019',
-        description: 'production automation engineer',
+        description: 'Automation engineer',
         img: kpi
     },
         {
             title: 'IPTKiSSumDU',
             years: '2013-2015',
-            description: 'production automation technologist',
+            description: 'Automation technologist',
             img: kpi
         }
     ]
 
 
     return (
+
         <div className={style.credentials}>
             {credential.map((el, index) => {
                 return <div className={style.blocks}
@@ -30,7 +39,7 @@ export const Credentials = () => {
                         {el.title}
                     </span>
                     <span>{el.years}</span>
-                    <span>{el.description}</span>
+                    <span style={{color:'#EE6D52', fontWeight:'400'}}>{el.description}</span>
                 </div>
             })}
         </div>
@@ -45,51 +54,42 @@ export const Experience = () => {
     const [state, setState] = useState(true)
 
 
-    const check = () => {
-        setState(!state)
-        console.log(state);
-    }
 
+    const experience = [
 
-    const experience = [{
-        title: 'Mindy Support',
-        years: '2016-2017',
-        description: 'Graphic Assistant'
-    },
-        {
-            title: 'BAT Ukraine',
-            years: '2018-2018',
-            description: 'engineer assistant'
-        },
-        {
-            title: 'Skoda Auto CZ',
-            years: '2019-2021',
-            description: "Production Technician"
-        },
-        {
-            title: 'Freelancer',
-            years: '2022-2023',
-            description: "Frontend Developer"
-        },
         {
             title: 'Berlin Labc LLC',
             years: '04.2023-07.2023',
-            description: "Frontend Developer"
-        }
+            description: "Front End Developer"
+        },
+        {
+            title: 'Freelancer',
+            years: '06.2022-05.2023',
+            description: "Front End Developer"
+        },
+        {
+            title: 'Skoda Auto CZ',
+            years: '05.2019-12.2021',
+            description: "Production Supervisor"
+        },
+        {
+            title: 'Mindy Support',
+            years: '12.2016-07.2017',
+            description: 'Graphic Assistant'
+        },
     ]
 
     return (
-        <div className={style.expierence}>
+        <div className={style.credentials}>
             {experience.map((el, index) => {
-                return <div className={style.expierenceBlock}
-                            onClick={check}
+                return <div className={style.blocks}
                             key={index}
                 >
                     <span>
                         {el.title}
                     </span>
                     <span>{el.years}</span>
-                    <span>{el.description}</span>
+                    <span style={{color:'#EE6D52', fontWeight:'400'}}>{el.description}</span>
 
                 </div>
             })}

@@ -25,11 +25,6 @@
     font-size: 0.75rem;
 }
 
-.gridItem svg {
-    width: 2rem;
-    height: 5rem;
-    color: white;
-}
 
 @media (max-width: 960px) {
 

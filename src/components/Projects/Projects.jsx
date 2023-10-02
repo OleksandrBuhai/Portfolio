@@ -7,6 +7,7 @@ import socialNetworkImg from '../../assests/img/projectsImg/socialNetwork.webp'
 import todoListIMg from '../../assests/img/projectsImg/todolist.png'
 import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png'
 import influexaImg from '../../assests/img/projectsImg/Influexa.jpg'
+import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png'
 
 
 function Projects() {
@@ -19,19 +20,20 @@ function Projects() {
     const projectInfo = [
         {
             url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
+            picture: portfolioIMG,
+            name: 'Portfolio',
+            text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
+        },
+        {
+            url: false,
             gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
             picture: gymWebImg,
             name: 'Gym Website',
             text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another ' +
                 'technique for making that look more cool and more interesting than another similar projects on the market'
         },
-        {
-            url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
-            picture: influexaImg,
-            name: 'Portfolio',
-            text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
-        },
+
         {
             url: false,
             gitHubLink: 'https://github.com/OleksandrBuhai/Influenser',

@@ -1,9 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import style from './SkillDescription.module.css';
-import {FaCss3, FaDev, FaFigma, FaHtml5, FaReact,} from 'react-icons/fa';
-import {SiRedux} from 'react-icons/si';
-import {BsGit} from 'react-icons/bs';
-import {BiLogoJavascript, BiLogoTypescript} from 'react-icons/bi';
 import {buildStyles, CircularProgressbarWithChildren,} from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import react from '../../../../assests/img/colorful/react.svg'
@@ -13,8 +9,6 @@ import js from '../../../../assests/img/colorful/js.svg'
 import ts from '../../../../assests/img/colorful/ts.svg'
 import redux from '../../../../assests/img/colorful/redux.svg'
 import git from '../../../../assests/img/colorful/git.svg'
-
-
 
 
 export const SkillDescription = () => {
