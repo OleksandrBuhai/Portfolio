@@ -30,7 +30,7 @@ export const Main =()=> {
                         Hi there
                         <span className={style.greet}> 👋 </span>
                     </h3>
-                    <h3>I am Alex Buhai</h3>
+                    <h3>I am Oleksandr Buhai</h3>
                     <h3>Front-end developer</h3>
                     <Button  name={"Download CV"}/>
                 </motion.div>

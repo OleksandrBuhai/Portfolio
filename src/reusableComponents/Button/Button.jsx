@@ -137,12 +137,12 @@ const StyledButton = styled.a`
 `;
 
 export const Button = (props) => {
-    const pdfURL = "https://github.com/OleksandrBuhai/Portfolio/raw/main/src/assests/animation/resume/Alex_Buhai_CV.pdf";
+    const pdfURL = "https://github.com/OleksandrBuhai/Portfolio/raw/main/src/assests/animation/resume/Oleksandr_Buhai_CV.pdf";
 
     const handleDownloadPDF = () => {
         const link = document.createElement("a");
         link.href = pdfURL;
-        link.download = "Alex_Buhai_CV.pdf";
+        link.download = "Oleksandr_Buhai_CV.pdf";
 
 
         link.click();
