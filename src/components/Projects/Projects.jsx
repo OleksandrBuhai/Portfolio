@@ -67,9 +67,6 @@ function Projects() {
             text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries.'
         },
 
-
-
-
     ]
 
 
