@@ -8,6 +8,7 @@ import todoListIMg from '../../assests/img/projectsImg/todolist.png'
 import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png'
 import influexaImg from '../../assests/img/projectsImg/Influexa.jpg'
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png'
+import ecComerceImg from '../../assests/img/projectsImg/eComerce.png'
 
 
 function Projects() {
@@ -24,6 +25,13 @@ function Projects() {
             picture: portfolioIMG,
             name: 'Portfolio',
             text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://oleksandrbuhai.github.io/eComerce/',
+            picture: ecComerceImg,
+            name: 'eComerce',
+            text: 'eComerce web site where u can look,buy different stuff.Making with React,TS,Tailwind CSS'
         },
         {
             url: false,
