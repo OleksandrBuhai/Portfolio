@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Project.module.css"
-import {FaLink} from "react-icons/fa";
+import {FaLink,FaGithub} from "react-icons/fa";
 
 
 function Project(props) {
@@ -13,8 +13,13 @@ function Project(props) {
         <div className={styles.project}>
             <img className={styles.icon}  src={props.picture} alt=''></img>
             <div className={styles.layer}>
-               <a href={props.url} className={styles.linkContainer}>
-                 <FaLink className={styles.linkIcon}/>
+              
+              {props.url != null ?  <a href={props.url} className={styles.linkContainer}>
+                 <FaLink className={styles.linkIcon}/>                
+               </a> : ''}
+             
+               <a href={props.repoUrl} className={styles.linkContainer}>
+               <FaGithub className={styles.linkIcon}/>
                </a>
             </div>
         </div>

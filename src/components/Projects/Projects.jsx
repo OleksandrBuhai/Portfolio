@@ -23,6 +23,7 @@ function Projects() {
         {
             url: false,
             gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
+            gitHubRepo: 'https://oleksandrbuhai.github.io/Portfolio/',
             picture: portfolioIMG,
             name: 'Portfolio',
             text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
@@ -30,13 +31,15 @@ function Projects() {
         {
             url: false,
             gitHubLink: 'https://oleksandrbuhai.github.io/eComerce/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/eComerce',
             picture: ecComerceImg,
             name: 'eComerce',
             text: 'eComerce web site where u can look,buy different stuff.Making with React,TS,Tailwind CSS'
         },
         {
             url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
+            gitHubLink: 'https://oleksandrbuhai.github.io/GymSite/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/GymSite',
             picture: gymWebImg,
             name: 'Gym Website',
             text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another '
@@ -45,21 +48,21 @@ function Projects() {
 
         {
             url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/Influenser',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/Influenser',
             picture: influexaImg,
             name: 'Influexa',
             text: 'Landing page. Make with Vite + React + TailwindCSS.'
         },
         {
             url: ' ',
-            gitHubLink: 'https://github.com/OleksandrBuhai/ToDoList',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/ToDoList',
             picture: todoListIMg,
             name: 'ToDo List',
             text: 'For this project i used : TypeScript, CSS,  React ,Redux ,Redux Toolkit  ,Snapshot testing, Unit testing, StoryBook ,Material UI '
         },
         {
             url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/SocialNetwork',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/SocialNetwork',
             picture: socialMedia,
             name: 'Social Network',
             text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries '
@@ -84,7 +87,7 @@ function Projects() {
 
                     return <div key={index} className={`${styles.projects} ${isEven ? styles.even : styles.odd}`}
                                 data-aos="zoom-in-right">
-                        <Project url={el.gitHubLink} name={el.name} text={el.text} picture={el.picture}/>
+                        <Project url={el.gitHubLink} repoUrl={el.gitHubRepo} name={el.name} text={el.text} picture={el.picture}/>
                         <div className={styles.textContainer}>
                             <h4>{el.name}</h4>
                             <span>{el.text}</span>
