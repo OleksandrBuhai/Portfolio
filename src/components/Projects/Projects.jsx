@@ -1,15 +1,14 @@
-import React, {useEffect} from "react";
-import styles from "./Projects.module.css";
-import Project from "./Project/Project";
 import AOS from "aos";
 import 'aos/dist/aos.css';
-import socialNetworkImg from '../../assests/img/projectsImg/socialNetwork.webp'
-import todoListIMg from '../../assests/img/projectsImg/todolist.png'
-import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png'
-import influexaImg from '../../assests/img/projectsImg/Influexa.jpg'
-import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png'
-import ecComerceImg from '../../assests/img/projectsImg/eComerce.png'
-import socialMedia from '../../assests/img/projectsImg/socialMedia.jpg'
+import React, { useEffect } from "react";
+import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png';
+import influexaImg from '../../assests/img/projectsImg/Influexa.jpg';
+import ecComerceImg from '../../assests/img/projectsImg/eComerce.png';
+import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png';
+import socialMedia from '../../assests/img/projectsImg/socialMedia.jpg';
+import todoListIMg from '../../assests/img/projectsImg/todolist.png';
+import Project from "./Project/Project";
+import styles from "./Projects.module.css";
 
 
 function Projects() {
@@ -26,7 +25,7 @@ function Projects() {
             gitHubRepo: 'https://oleksandrbuhai.github.io/Portfolio/',
             picture: portfolioIMG,
             name: 'Portfolio',
-            text: 'My portfolio web site. Here i used almost all of my knowledge in web development'
+            text: 'Portfolio web site. Here i used almost all of my knowledge in web development.'
         },
         {
             url: false,
@@ -34,7 +33,7 @@ function Projects() {
             gitHubRepo: 'https://github.com/OleksandrBuhai/eComerce',
             picture: ecComerceImg,
             name: 'eCommerce',
-            text: 'eCommerce web site where u can look, buy different stuff.Making with React, TS, Tailwind CSS'
+            text: 'eCommerce web site where you can look, buy different stuff.Making with React, TS, Tailwind CSS.'
         },
         {
             url: false,
@@ -42,7 +41,7 @@ function Projects() {
             gitHubRepo: 'https://github.com/OleksandrBuhai/GymSite',
             picture: gymWebImg,
             name: 'Gym Website',
-            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another '
+            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another.'
                 
         },
 
@@ -57,15 +56,15 @@ function Projects() {
             url: ' ',
             gitHubRepo: 'https://github.com/OleksandrBuhai/ToDoList',
             picture: todoListIMg,
-            name: 'ToDo List',
-            text: 'For this project i used: TypeScript, CSS,  React, Redux, Redux Toolkit, Snapshot testing, Unit testing, StoryBook, Material UI '
+            name: 'SmartList ',
+            text: 'For this project i used: TypeScript, CSS,  React, Redux, Redux Toolkit, Snapshot testing, Unit testing, StoryBook, Material UI.'
         },
         {
             url: false,
             gitHubRepo: 'https://github.com/OleksandrBuhai/SocialNetwork',
             picture: socialMedia,
             name: 'Social Network',
-            text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries '
+            text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries.'
         },
 
 
