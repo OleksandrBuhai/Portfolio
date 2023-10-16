@@ -9,6 +9,7 @@ import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png'
 import influexaImg from '../../assests/img/projectsImg/Influexa.jpg'
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png'
 import ecComerceImg from '../../assests/img/projectsImg/eComerce.png'
+import socialMedia from '../../assests/img/projectsImg/socialMedia.jpg'
 
 
 function Projects() {
@@ -38,8 +39,8 @@ function Projects() {
             gitHubLink: 'https://github.com/OleksandrBuhai/GymSite',
             picture: gymWebImg,
             name: 'Gym Website',
-            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another ' +
-                'technique for making that look more cool and more interesting than another similar projects on the market'
+            text: 'How probably can look  web site for gym.In this projects I used React.JS, framer-motion and another '
+                
         },
 
         {
@@ -54,13 +55,12 @@ function Projects() {
             gitHubLink: 'https://github.com/OleksandrBuhai/ToDoList',
             picture: todoListIMg,
             name: 'ToDo List',
-            text: 'That\'s my lovest project, where I used much of my knowledge. Here I am trying to implement all the new technologies which I learned in past, and test many features i seen. \n' +
-                'For this project i used : TypeScript, CSS,  React ,Redux ,Redux Toolkit  ,Snapshot testing, Unit testing, StoryBook ,Material UI '
+            text: 'For this project i used : TypeScript, CSS,  React ,Redux ,Redux Toolkit  ,Snapshot testing, Unit testing, StoryBook ,Material UI '
         },
         {
             url: false,
             gitHubLink: 'https://github.com/OleksandrBuhai/SocialNetwork',
-            picture: socialNetworkImg,
+            picture: socialMedia,
             name: 'Social Network',
             text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries '
         },

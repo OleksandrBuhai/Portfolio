@@ -12,3 +12,12 @@
 
 
 
+@media (max-width: 900px) {
+
+   .about {
+    font-size: 1.5rem;
+   }
+
+}
+
+
