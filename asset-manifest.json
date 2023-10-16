@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.e7886467.css",
-    "main.js": "/Portfolio/static/js/main.83d06f97.js",
+    "main.css": "/Portfolio/static/css/main.808d365c.css",
+    "main.js": "/Portfolio/static/js/main.38f7a543.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/testSup.png": "/Portfolio/static/media/testSup.90e4220f57cdc669d639.png",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
@@ -20,7 +20,6 @@
     "static/media/bulb.png": "/Portfolio/static/media/bulb.d613268c085dc67ec8d3.png",
     "static/media/fa-brands-400.woff2": "/Portfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
     "static/media/fa-regular-400.ttf": "/Portfolio/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/socialNetwork.webp": "/Portfolio/static/media/socialNetwork.2962a0ad332fdff925d8.webp",
     "static/media/fa-regular-400.woff2": "/Portfolio/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/ellipse-1.png": "/Portfolio/static/media/ellipse-1.c881c5d7b8697df5be18.png",
     "static/media/ellipse-2.png": "/Portfolio/static/media/ellipse-2.30d8c97935171cb3c6ba.png",
@@ -36,12 +35,12 @@
     "static/media/css.svg": "/Portfolio/static/media/css.8d74d243d5015da894cc09a473123103.svg",
     "index.html": "/Portfolio/index.html",
     "static/media/html.svg": "/Portfolio/static/media/html.69a10465801a7b417c110a09cfdc1176.svg",
-    "main.e7886467.css.map": "/Portfolio/static/css/main.e7886467.css.map",
-    "main.83d06f97.js.map": "/Portfolio/static/js/main.83d06f97.js.map",
+    "main.808d365c.css.map": "/Portfolio/static/css/main.808d365c.css.map",
+    "main.38f7a543.js.map": "/Portfolio/static/js/main.38f7a543.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7886467.css",
-    "static/js/main.83d06f97.js"
+    "static/css/main.808d365c.css",
+    "static/js/main.38f7a543.js"
   ]
 }
