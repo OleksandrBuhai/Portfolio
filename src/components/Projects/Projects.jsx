@@ -33,8 +33,8 @@ function Projects() {
             gitHubLink: 'https://oleksandrbuhai.github.io/eComerce/',
             gitHubRepo: 'https://github.com/OleksandrBuhai/eComerce',
             picture: ecComerceImg,
-            name: 'eComerce',
-            text: 'eComerce web site where u can look,buy different stuff.Making with React,TS,Tailwind CSS'
+            name: 'eCommerce',
+            text: 'eCommerce web site where u can look, buy different stuff.Making with React, TS, Tailwind CSS'
         },
         {
             url: false,
@@ -51,14 +51,14 @@ function Projects() {
             gitHubRepo: 'https://github.com/OleksandrBuhai/Influenser',
             picture: influexaImg,
             name: 'Influexa',
-            text: 'Landing page. Make with Vite + React + TailwindCSS.'
+            text: 'Landing page. Make with Vite, React, TailwindCSS.'
         },
         {
             url: ' ',
             gitHubRepo: 'https://github.com/OleksandrBuhai/ToDoList',
             picture: todoListIMg,
             name: 'ToDo List',
-            text: 'For this project i used : TypeScript, CSS,  React ,Redux ,Redux Toolkit  ,Snapshot testing, Unit testing, StoryBook ,Material UI '
+            text: 'For this project i used: TypeScript, CSS,  React, Redux, Redux Toolkit, Snapshot testing, Unit testing, StoryBook, Material UI '
         },
         {
             url: false,

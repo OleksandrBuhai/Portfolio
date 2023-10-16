@@ -10,7 +10,7 @@ function Footer () {
         <div className={styles.footerContainer}>
             <div className={styles.footersBlock}>
                 <footer className={styles.footer}>
-                    Copyryting ©: 2023 by Oleksandr Buhai | All Rights Reserver.
+                    Copyryting ©: 2023 by Oleksandr Buhai |
                 </footer>
                 <div className={styles.goUp}><Link to="Main" smooth={true}><FaArrowUp/></Link></div>
             </div>
