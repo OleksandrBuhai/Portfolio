@@ -137,7 +137,7 @@ const StyledButton = styled.a`
 `;
 
 export const Button = (props) => {
-    const pdfURL = "https://github.com/OleksandrBuhai/Portfolio/raw/main/src/assests/animation/resume/Oleksandr_Buhai_CV.pdf";
+    const pdfURL = "https://github.com/OleksandrBuhai/Portfolio/raw/main/src/resume/Oleksandr_Buhai_CV.pdf";
 
     const handleDownloadPDF = () => {
         const link = document.createElement("a");
