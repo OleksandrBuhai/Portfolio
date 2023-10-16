@@ -12,6 +12,23 @@ function Contacts() {
     const sendEmail = (e) => {
         e.preventDefault();
 
+        // Валідація форми
+        const formData = new FormData(form.current);
+        let isFormValid = true;
+
+        formData.forEach((value, key) => {
+            if (!value.trim()) {
+                // Якщо поле порожнє, встановлюємо isFormValid в false
+                isFormValid = false;
+            }
+        });
+
+        if (!isFormValid) {
+            window.alert('Please fill in all fields before submitting.');
+            return;
+        }
+
+        // Ваш існуючий код для відправлення електронної пошти
         emailjs
             .sendForm(
                 'service_h44wvlb',
@@ -22,8 +39,7 @@ function Contacts() {
             .then(
                 (result) => {
                     console.log(result.text);
-
-                    window.alert('message sent')
+                    window.alert('Message sent');
                     form.current.reset();
                 },
                 (error) => {
@@ -85,11 +101,11 @@ function Contacts() {
                             </div>
                             <div>
                                 <p>
-                  <textarea
-                      name="message"
-                      className={styles.textArea}
-                      placeholder="Enter your message"
-                  />
+                                    <textarea
+                                        name="message"
+                                        className={styles.textArea}
+                                        placeholder="Enter your message"
+                                    />
                                 </p>
                             </div>
                             <div className={styles.centerButton}>
