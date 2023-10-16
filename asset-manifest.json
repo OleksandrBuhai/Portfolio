@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ca26b58b.css",
-    "main.js": "/Portfolio/static/js/main.38b95131.js",
+    "main.js": "/Portfolio/static/js/main.e6252e7a.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/testSup.png": "/Portfolio/static/media/testSup.90e4220f57cdc669d639.png",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
     "static/media/portfolioIMG.png": "/Portfolio/static/media/portfolioIMG.2d709ee8083ce1fee481.png",
+    "static/media/eComerce.png": "/Portfolio/static/media/eComerce.9ff97d73507fb883ae21.png",
     "static/media/test2Ava.png": "/Portfolio/static/media/test2Ava.8d684a86be3f2d6398d7.png",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/PNG image 4.png": "/Portfolio/static/media/PNG image 4.f6d71ab2b4be24993c7a.png",
@@ -35,11 +36,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/html.svg": "/Portfolio/static/media/html.69a10465801a7b417c110a09cfdc1176.svg",
     "main.ca26b58b.css.map": "/Portfolio/static/css/main.ca26b58b.css.map",
-    "main.38b95131.js.map": "/Portfolio/static/js/main.38b95131.js.map",
+    "main.e6252e7a.js.map": "/Portfolio/static/js/main.e6252e7a.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca26b58b.css",
-    "static/js/main.38b95131.js"
+    "static/js/main.e6252e7a.js"
   ]
 }
