@@ -29,8 +29,8 @@ function Projects() {
         },
         {
             url: false,
-            gitHubLink: 'https://oleksandrbuhai.github.io/eComerce/',
-            gitHubRepo: 'https://github.com/OleksandrBuhai/eComerce',
+            gitHubLink: 'https://oleksandrbuhai.github.io/eCommerce/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/eCommerce',
             picture: ecComerceImg,
             name: 'eCommerce',
             text: 'eCommerce web site where you can look, buy different stuff.Making with React, TS, Tailwind CSS.'
