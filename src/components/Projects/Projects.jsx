@@ -7,6 +7,7 @@ import ecComerceImg from '../../assests/img/projectsImg/eComerce.png';
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png';
 import socialMedia from '../../assests/img/projectsImg/socialMedia.jpg';
 import todoListIMg from '../../assests/img/projectsImg/todolist.png';
+import memeIMG from '../../assests/img/projectsImg/MemeSearch.png';
 import Project from "./Project/Project";
 import styles from "./Projects.module.css";
 
@@ -33,7 +34,15 @@ function Projects() {
             gitHubRepo: 'https://github.com/OleksandrBuhai/eCommerce',
             picture: ecComerceImg,
             name: 'eCommerce',
-            text: 'eCommerce web site where you can look, buy different stuff.Making with React, TS, Tailwind CSS.'
+            text: 'eCommerce web site where you can look, buy different stuff.Making with React, TS, Tailwind CSS, RTK.'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://oleksandrbuhai.github.io/memesSearch/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/memesSearch',
+            picture: memeIMG,
+            name: 'Gif Search',
+            text: 'GifSearch web site where you find a gif for any case.Making with React, TS, StyledComponent, Axios, RTK.'
         },
         {
             url: false,
