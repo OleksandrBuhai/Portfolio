@@ -67,11 +67,7 @@ export const Experience = () => {
             years: '06.2022-05.2023',
             description: "Front End Developer"
         },
-        {
-            title: 'Skoda Auto CZ',
-            years: '05.2019-12.2021',
-            description: "Production Supervisor"
-        },
+    
         {
             title: 'Mindy Support',
             years: '12.2016-07.2017',

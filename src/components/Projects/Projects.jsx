@@ -1,13 +1,12 @@
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import React, { useEffect } from "react";
+import CaptionBuilderApp from '../../assests/img/projectsImg/CaptionBuilder.png';
 import gymWebImg from '../../assests/img/projectsImg/GymWebSite.png';
 import influexaImg from '../../assests/img/projectsImg/Influexa.jpg';
+import memeIMG from '../../assests/img/projectsImg/MemeSearch.png';
 import ecComerceImg from '../../assests/img/projectsImg/eComerce.png';
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png';
-import socialMedia from '../../assests/img/projectsImg/socialMedia.jpg';
-import todoListIMg from '../../assests/img/projectsImg/todolist.png';
-import memeIMG from '../../assests/img/projectsImg/MemeSearch.png';
 import Project from "./Project/Project";
 import styles from "./Projects.module.css";
 
@@ -27,6 +26,14 @@ function Projects() {
             picture: portfolioIMG,
             name: 'Portfolio',
             text: 'Portfolio web site. Here i used almost all of my knowledge in web development.'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/Portfolio',
+            gitHubRepo: 'https://caption-builder.vercel.app/',
+            picture: CaptionBuilderApp,
+            name: 'Caption Builder',
+            text: 'Caption Builder App. Caption builder for your video. Develop with NextJS, TailwindCSS, AWS.'
         },
         {
             url: false,
@@ -61,20 +68,7 @@ function Projects() {
             name: 'Influexa',
             text: 'Landing page. Make with Vite, React, TailwindCSS.'
         },
-        {
-            url: ' ',
-            gitHubRepo: 'https://github.com/OleksandrBuhai/ToDoList',
-            picture: todoListIMg,
-            name: 'SmartList ',
-            text: 'For this project i used: TypeScript, CSS,  React, Redux, Redux Toolkit, Snapshot testing, Unit testing, StoryBook, Material UI.'
-        },
-        {
-            url: false,
-            gitHubRepo: 'https://github.com/OleksandrBuhai/SocialNetwork',
-            picture: socialMedia,
-            name: 'Social Network',
-            text: 'With this project, I learned how to work with classes components, which could be handy with some old applications. Researched how to work Redux under the hood, was working with old libraries.'
-        },
+
 
     ]
 
