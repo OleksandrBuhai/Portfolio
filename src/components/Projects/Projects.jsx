@@ -7,6 +7,8 @@ import influexaImg from '../../assests/img/projectsImg/Influexa.jpg';
 import memeIMG from '../../assests/img/projectsImg/MemeSearch.png';
 import ecComerceImg from '../../assests/img/projectsImg/eComerce.png';
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png';
+import salesAnalytics from '../../assests/img/projectsImg/salesAnalytics.png'
+import drumNpad from '../../assests/img/projectsImg/drumNpad.png'
 import Project from "./Project/Project";
 import styles from "./Projects.module.css";
 
@@ -37,11 +39,27 @@ function Projects() {
         },
         {
             url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/UI_DESIGN_SALES_ANALYTYC',
+            gitHubRepo: 'https://ui-design-sales-analytyc.vercel.app/',
+            picture: salesAnalytics,
+            name: 'Sales Analytics UI Design',
+            text: 'Sales Analytics UI landing page. Develop with React, Ts, Styled components.'
+        },
+        {
+            url: false,
             gitHubLink: 'https://oleksandrbuhai.github.io/eCommerce/',
             gitHubRepo: 'https://github.com/OleksandrBuhai/eCommerce',
             picture: ecComerceImg,
             name: 'eCommerce',
-            text: 'eCommerce web site where you can look, buy different stuff.Making with React, TS, Tailwind CSS, RTK.'
+            text: 'eCommerce web site where you can look, buy different stuff. Making with React, TS, Tailwind CSS, RTK.'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://oleksandrbuhai.github.io/DrumPad/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/DrumPad',
+            picture: drumNpad,
+            name: 'drumNpad',
+            text: 'drumNpad web app where you can create music. Making with React, TS, TailwindCSS.'
         },
         {
             url: false,
