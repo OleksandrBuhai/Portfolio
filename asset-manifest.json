@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.808d365c.css",
-    "main.js": "/Portfolio/static/js/main.01afe776.js",
+    "main.js": "/Portfolio/static/js/main.227c6977.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/testSup.png": "/Portfolio/static/media/testSup.90e4220f57cdc669d639.png",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
     "static/media/MemeSearch.png": "/Portfolio/static/media/MemeSearch.2b0178c1c0cbc41f0274.png",
     "static/media/portfolioIMG.png": "/Portfolio/static/media/portfolioIMG.2d709ee8083ce1fee481.png",
     "static/media/eComerce.png": "/Portfolio/static/media/eComerce.9ff97d73507fb883ae21.png",
+    "static/media/salesAnalytics.png": "/Portfolio/static/media/salesAnalytics.88b8bc1aadd9312fa5fa.png",
     "static/media/test2Ava.png": "/Portfolio/static/media/test2Ava.8d684a86be3f2d6398d7.png",
     "static/media/fa-solid-900.ttf": "/Portfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/PNG image 4.png": "/Portfolio/static/media/PNG image 4.f6d71ab2b4be24993c7a.png",
@@ -37,11 +38,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/html.svg": "/Portfolio/static/media/html.69a10465801a7b417c110a09cfdc1176.svg",
     "main.808d365c.css.map": "/Portfolio/static/css/main.808d365c.css.map",
-    "main.01afe776.js.map": "/Portfolio/static/js/main.01afe776.js.map",
+    "main.227c6977.js.map": "/Portfolio/static/js/main.227c6977.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.808d365c.css",
-    "static/js/main.01afe776.js"
+    "static/js/main.227c6977.js"
   ]
 }
