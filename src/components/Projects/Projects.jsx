@@ -8,6 +8,7 @@ import memeIMG from '../../assests/img/projectsImg/MemeSearch.png';
 import ecComerceImg from '../../assests/img/projectsImg/eComerce.png';
 import portfolioIMG from '../../assests/img/projectsImg/portfolioIMG.png';
 import salesAnalytics from '../../assests/img/projectsImg/salesAnalytics.png'
+import skiResort from '../../assests/img/projectsImg/SkiResort.png'
 import drumNpad from '../../assests/img/projectsImg/drumNpad.png'
 import Project from "./Project/Project";
 import styles from "./Projects.module.css";
@@ -45,6 +46,7 @@ function Projects() {
             name: 'Sales Analytics UI Design',
             text: 'Sales Analytics UI landing page. Develop with React, Ts, Styled components.'
         },
+       
         {
             url: false,
             gitHubLink: 'https://oleksandrbuhai.github.io/eCommerce/',
@@ -68,6 +70,14 @@ function Projects() {
             picture: memeIMG,
             name: 'Gif Search',
             text: 'GifSearch web site where you find a gif for any case.Making with React, TS, StyledComponent, Axios, RTK.'
+        },
+        {
+            url: false,
+            gitHubLink: 'https://github.com/OleksandrBuhai/SkiResort',
+            gitHubRepo: 'https://ski-resort-9wg9-zdp1akhfq-oleksandrs-projects-847aa668.vercel.app/',
+            picture: skiResort,
+            name: 'Ski resort',
+            text: 'Ski resort landing page, with parralax effect. Develop with React, JS, CSS.'
         },
         {
             url: false,
