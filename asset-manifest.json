@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.808d365c.css",
-    "main.js": "/Portfolio/static/js/main.227c6977.js",
+    "main.js": "/Portfolio/static/js/main.f2394d9a.js",
     "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/testSup.png": "/Portfolio/static/media/testSup.90e4220f57cdc669d639.png",
+    "static/media/SkiResort.png": "/Portfolio/static/media/SkiResort.7dd161dcf66ee4cf356f.png",
     "static/media/GymWebSite.png": "/Portfolio/static/media/GymWebSite.0c76b494320bc15846aa.png",
     "static/media/MemeSearch.png": "/Portfolio/static/media/MemeSearch.2b0178c1c0cbc41f0274.png",
     "static/media/portfolioIMG.png": "/Portfolio/static/media/portfolioIMG.2d709ee8083ce1fee481.png",
@@ -38,11 +39,11 @@
     "index.html": "/Portfolio/index.html",
     "static/media/html.svg": "/Portfolio/static/media/html.69a10465801a7b417c110a09cfdc1176.svg",
     "main.808d365c.css.map": "/Portfolio/static/css/main.808d365c.css.map",
-    "main.227c6977.js.map": "/Portfolio/static/js/main.227c6977.js.map",
+    "main.f2394d9a.js.map": "/Portfolio/static/js/main.f2394d9a.js.map",
     "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.808d365c.css",
-    "static/js/main.227c6977.js"
+    "static/js/main.f2394d9a.js"
   ]
 }
