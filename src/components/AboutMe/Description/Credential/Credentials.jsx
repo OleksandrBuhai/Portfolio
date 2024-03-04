@@ -59,12 +59,12 @@ export const Experience = () => {
 
         {
             title: 'Berlin Labc LLC',
-            years: '04.2023-07.2023',
+            years: '04.2022-07.2023',
             description: "Front End Developer"
         },
         {
-            title: 'Freelancer',
-            years: '06.2022-05.2023',
+            title: 'Kodable',
+            years: '07.2023-03.2024',
             description: "Front End Developer"
         },
     

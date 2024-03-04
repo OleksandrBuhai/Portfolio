@@ -46,7 +46,14 @@ function Projects() {
             name: 'Sales Analytics UI Design',
             text: 'Sales Analytics UI landing page. Develop with React, Ts, Styled components.'
         },
-       
+        {
+            url: false,
+            gitHubLink: 'https://ski-resort-9wg9-zdp1akhfq-oleksandrs-projects-847aa668.vercel.app/',
+            gitHubRepo: 'https://github.com/OleksandrBuhai/SkiResort',
+            picture: skiResort,
+            name: 'Ski resort',
+            text: 'Ski resort landing page, with parralax effect. Develop with React, JS, CSS.'
+        },
         {
             url: false,
             gitHubLink: 'https://oleksandrbuhai.github.io/eCommerce/',
@@ -71,14 +78,7 @@ function Projects() {
             name: 'Gif Search',
             text: 'GifSearch web site where you find a gif for any case.Making with React, TS, StyledComponent, Axios, RTK.'
         },
-        {
-            url: false,
-            gitHubLink: 'https://github.com/OleksandrBuhai/SkiResort',
-            gitHubRepo: 'https://ski-resort-9wg9-zdp1akhfq-oleksandrs-projects-847aa668.vercel.app/',
-            picture: skiResort,
-            name: 'Ski resort',
-            text: 'Ski resort landing page, with parralax effect. Develop with React, JS, CSS.'
-        },
+      
         {
             url: false,
             gitHubLink: 'https://oleksandrbuhai.github.io/GymSite/',
