@@ -54,18 +54,27 @@ export const Experience = () => {
     const [state, setState] = useState(true)
 
 
-
     const experience = [
 
         {
             title: 'Berlin Labc LLC',
-            years: '04.2022-07.2023',
+            years: '04.2022-07.2022',
             description: "Front End Developer"
         },
         {
-            title: 'Kodable',
-            years: '07.2023-03.2024',
+            title: 'Freelance',
+            years: '07.2022-03.2024',
             description: "Front End Developer"
+        },
+        {
+            title: 'Skoda Auto',
+            years: '05.2019-12.2022',
+            description: 'Production Technoligist'
+        },
+        {
+            title: 'BAT Ukraine',
+            years: '12.2016-07.2017',
+            description: 'Middle Manufaturing operator'
         },
     
         {
